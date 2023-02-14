@@ -35,6 +35,12 @@ bodyClass: "page-teams"
                     {% if team.linkedinurl %}
                     <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
                     {% endif %}
+                    {% if team.pubmedurl %}
+                    <a target="_blank" href="{{ team.pubmedurl }}" rel="noreferrer">PubMed</a>
+                    {% endif %}
+                    {% if team.catalysturl %}
+                    <a target="_blank" href="{{ team.catalysturl }}" rel="noreferrer">Harvard Catalyst</a>
+                    {% endif %}
                 </div>
                 <div class="team-content">{{ team.content | truncate: 120 }}</div>
             </div>
