@@ -7,6 +7,8 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The Team
+# Lab Members
 
-Our team of qualified accountants and financial consultants can help your business at any stage of it's growth.
+Our members are specialized in clinical application of computer science and mechanical engineering.
+
+

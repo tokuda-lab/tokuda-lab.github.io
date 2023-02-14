@@ -1,13 +1,17 @@
 ---
-title: Jekyll Serif Theme
+title: Tokuda Lab
 layout: home
-description: Jekyll Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+description: Tokuda Lab's Website. 
 intro_image: "images/illustrations/pointing.svg"
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
-show_call_box: true
+show_call_box: False
 ---
 
-# Serif - A Jekyll Business Theme.
+# Tokuda Lab.
 
-Serif contains content types for a typical business website. The theme is fully responsive, blazing fast and artfully illustrated.
+Advanced Imaging and Robotics for Minimally Invasive Therapy.
+
+Part of National Center for Image-Guided Therapy (NCIGT),
+Department of Radiology, Brigham and Women's Hospital and Harvard Medical School.
+
