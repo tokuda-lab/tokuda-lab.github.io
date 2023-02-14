@@ -1,6 +1,6 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "Projects"
+    url: "/projects/"
     weight: 2
   - name: "Team"
     url: "/team/"
