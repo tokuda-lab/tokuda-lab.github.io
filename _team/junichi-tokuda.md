@@ -1,9 +1,9 @@
 ---
 title: "Junichi Tokuda, Ph.D."
 date: 2018-11-19T10:47:58+10:00
-image: "images/team/peter-van-eijk-711986-unsplash.jpg"
+image: "images/team/junichi-tokuda.jpg"
 jobtitle: "Principal Investigator"
-linkedinurl: "https://www.linkedin.com/"
+linkedinurl: "https://www.linkedin.com/in/junichi-tokuda-71a0109"
 pubmedurl: "https://pubmed.ncbi.nlm.nih.gov/?term=Junichi+Tokuda%5BAuthor%5D"
 catalysturl: "https://connects.catalyst.harvard.edu/Profiles/display/Person/56131"
 promoted: true
