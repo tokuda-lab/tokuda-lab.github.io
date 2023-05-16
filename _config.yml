@@ -1,6 +1,8 @@
 baseurl: '/'
 permalink: pretty
-title: 'Tokuda Lab'
+title: 'Tokuda Laboratory'
+labname: 'Tokuda Laboratory'
+deptname: 'Department of Radiology'
 
 logo:
   mobile: "images/logo/logo-mobile.png"
@@ -8,6 +10,7 @@ logo:
   mobile_width: "32px"
   desktop: "images/logo/logo.png"
   desktop_width: "240px"
+  desktop_height: "40px"
 
 home: 
   limit_projects: 6

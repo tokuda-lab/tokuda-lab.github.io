@@ -11,7 +11,7 @@ The Tokuda Lab. is a biomedical engineering research laboratory specialized in t
 - MRI-compatible manipulators for needle placement
 - Novel intraprocedural MR imaging techniques to monitor ablations
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+![Clinical Research](/images/projects/amigo_prostate_robot.jpg)
 
 Our laboratory is located on the main campus of Brigham and Women’s Hospital having access to a wide variety of state-of-the-art clinical facilities, including the Advanced Multimodality Image Guided Operation (AMIGO) suite, a 5,700-square-foot operating room equipped with 3-Tesla MRI and PET/CT scanners. The proximity to those facilities allows us to work closely with clinical staff in the clinical environment to test new software and devices and obtain feedback frequently.
 

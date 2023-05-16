@@ -5,18 +5,392 @@ description: Publications
 bodyClass: page-about
 ---
 
-The Tokuda Lab. is a biomedical engineering research laboratory specialized in the development and clinical evaluation of imaging and robotics technologies to support clinical interventions. Particularly, we are focused on image-guided “closed-loop” interventions, where images are used for planning a procedure, guiding tools, and monitoring and confirming treatment effects to provide safe and effective diagnosis and treatment. Examples of our research projects include:
+1: Bernardes MC, Moreira P, Mareschal L, Tempany C, Tuncali K, Hata N, Tokuda J.
+Data-driven adaptive needle insertion assist for transperineal prostate
+interventions. Phys Med Biol. 2023 May 15;68(10). doi: 10.1088/1361-6560/accefa.
+PMID: 37080237.
 
-- Software platforms for image-guided and robot-assisted interventions
-- MRI-compatible manipulators for needle placement
-- Novel intraprocedural MR imaging techniques to monitor ablations
+2: Connolly L, Deguet A, Leonard S, Tokuda J, Ungi T, Krieger A, Kazanzides P,
+Mousavi P, Fichtinger G, Taylor RH. Bridging 3D Slicer and ROS2 for Image-Guided
+Robotic Interventions. Sensors (Basel). 2022 Jul 17;22(14):5336. doi:
+10.3390/s22145336. PMID: 35891016; PMCID: PMC9324680.
 
-![Accounting Services](/images/thom-holmes-Lrfw0U_o9I0-unsplash.jpg)
+3: Giganti F, Cole AP, Fennessy FM, Clinton T, Moreira PLDF, Bernardes MC,
+Westin CF, Krishnaswamy D, Fedorov A, Wollin DA, Langbein B, Frego N, Labban M,
+Badaoui JS, Chang SL, Briggs LG, Tokuda J, Ambrosi A, Kirkham A, Emberton M,
+Kasivisvanathan V, Moore CM, Allen C, Tempany CM. Promoting the use of the PI-
+QUAL score for prostate MRI quality: results from the ESOR Nicholas
+Gourtsoyiannis teaching fellowship. Eur Radiol. 2023 Jan;33(1):461-471. doi:
+10.1007/s00330-022-08947-5. Epub 2022 Jun 30. PMID: 35771247; PMCID: PMC9244244.
 
-Our laboratory is located on the main campus of Brigham and Women’s Hospital having access to a wide variety of state-of-the-art clinical facilities, including the Advanced Multimodality Image Guided Operation (AMIGO) suite, a 5,700-square-foot operating room equipped with 3-Tesla MRI and PET/CT scanners. The proximity to those facilities allows us to work closely with clinical staff in the clinical environment to test new software and devices and obtain feedback frequently.
+4: Lo WC, Bittencourt LK, Panda A, Jiang Y, Tokuda J, Seethamraju R, Tempany-
+Afdhal C, Obmann V, Wright K, Griswold M, Seiberlich N, Gulani V. Multicenter
+Repeatability and Reproducibility of MR Fingerprinting in Phantoms and in
+Prostatic Tissue. Magn Reson Med. 2022 Oct;88(4):1818-1827. doi:
+10.1002/mrm.29264. Epub 2022 Jun 17. PMID: 35713379; PMCID: PMC9469467.
 
-We are part of the National Center for Image-Guided Therapy, and work closely with a multidisciplinary team of clinicians and scientists. We also work with external collaborators from academic institutions and industry to pursue our research projects. Most of our research projects are funded by the National Institutes of Health and industrial partners.
- 
+5: Gunderman AL, Schmidt EJ, Morcos M, Tokuda J, Seethamraju RT, Halperin HR,
+Viswanathan AN, Chen Y. MR-Tracked Deflectable Stylet for Gynecologic
+Brachytherapy. IEEE ASME Trans Mechatron. 2022 Feb;27(1):407-417. doi:
+10.1109/tmech.2021.3064954. Epub 2021 Mar 9. PMID: 35185321; PMCID: PMC8855967.
+
+6: Schmidt EJ, Olson G, Tokuda J, Alipour A, Watkins RD, Meyer EM, Elahi H,
+Stevenson WG, Schweitzer J, Dumoulin CL, Johnson T, Kolandaivelu A, Loew W,
+Halperin HR. Intracardiac MR imaging (ICMRI) guiding-sheath with amplified
+expandable-tip imaging and MR-tracking for navigation and arrythmia ablation
+monitoring: Swine testing at 1.5 and 3T. Magn Reson Med. 2022
+Jun;87(6):2885-2900. doi: 10.1002/mrm.29168. Epub 2022 Feb 10. PMID: 35142398;
+PMCID: PMC8957513.
+
+7: Robertson FC, Sha RM, Amich JM, Essayed W, Lal A, Lee BH, Calvachi Prieto P,
+Tokuda J, Weaver JC, Kirollos RW, Chen MW, Gormley WB. Frameless neuronavigation
+with computer vision and real-time tracking for bedside external ventricular
+drain placement: a cadaveric study. J Neurosurg. 2021 Oct 15:1-10. doi:
+10.3171/2021.5.JNS211033. Epub ahead of print. PMID: 34653985.
+
+8: Meyer A, Mehrtash A, Rak M, Bashkanov O, Langbein B, Ziaei A, Kibel AS,
+Tempany CM, Hansen C, Tokuda J. Domain adaptation for segmentation of critical
+structures for prostate cancer therapy. Sci Rep. 2021 Jun 1;11(1):11480. doi:
+10.1038/s41598-021-90294-4. PMID: 34075061; PMCID: PMC8169882.
+
+9: Moreira P, Grimble J, Iftimia N, Bay CP, Tuncali K, Park J, Tokuda J. In vivo
+evaluation of angulated needle-guide template for MRI-guided transperineal
+prostate biopsy. Med Phys. 2021 May;48(5):2553-2565. doi: 10.1002/mp.14816. Epub
+2021 Mar 24. PMID: 33651407; PMCID: PMC8141017.
+
+10: Wang S, Frisbie J, Keepers Z, Bolten Z, Hevaganinge A, Boctor E, Leonard S,
+Tokuda J, Krieger A, Siddiqui MM. The Use of Three-dimensional Visualization
+Techniques for Prostate Procedures: A Systematic Review. Eur Urol Focus. 2021
+Nov;7(6):1274-1286. doi: 10.1016/j.euf.2020.08.002. Epub 2020 Aug 29. PMID:
+32873515.
+
+11: Moreira P, Tuncali K, Tempany CM, Tokuda J. The Impact of Placement Errors
+on the Tumor Coverage in MRI-Guided Focal Cryoablation of Prostate Cancer. Acad
+Radiol. 2021 Jun;28(6):841-848. doi: 10.1016/j.acra.2020.07.013. Epub 2020 Aug
+27. PMID: 32863151; PMCID: PMC7910318.
+
+12: Shono N, Ninni B, King F, Kato T, Tokuda J, Fujimoto T, Tuncali K, Hata N.
+Simulated accuracy assessment of small footprint body-mounted probe alignment
+device for MRI-guided cryotherapy of abdominal lesions. Med Phys. 2020
+Jun;47(6):2337-2349. doi: 10.1002/mp.14116. Epub 2020 Mar 28. PMID: 32141080;
+PMCID: PMC7889307.
+
+13: Tokuda J, Wang Q, Tuncali K, Seethamraju RT, Tempany CM, Schmidt EJ.
+Temperature-Sensitive Frozen-Tissue Imaging for Cryoablation Monitoring Using
+STIR-UTE MRI. Invest Radiol. 2020 May;55(5):310-317. doi:
+10.1097/RLI.0000000000000642. PMID: 31977600; PMCID: PMC7145748.
+
+14: Yamada A, Tokuda J, Naka S, Murakami K, Tani T, Morikawa S. Magnetic
+resonance and ultrasound image-guided navigation system using a needle
+manipulator. Med Phys. 2020 Mar;47(3):850-858. doi: 10.1002/mp.13958. Epub 2019
+Dec 29. PMID: 31829440; PMCID: PMC7067635.
+
+15: Patel NA, Li G, Shang W, Wartenberg M, Heffter T, Burdette EC, Iordachita I,
+Tokuda J, Hata N, Tempany CM, Fischer GS. System Integration and Preliminary
+Clinical Evaluation of a Robotic System for MRI-Guided Transperineal Prostate
+Biopsy. J Med Robot Res. 2019 Jun;4(2):1950001. doi: 10.1142/S2424905X19500016.
+Epub 2018 May 15. PMID: 31485544; PMCID: PMC6726403.
+
+16: Herz C, MacNeil K, Behringer PA, Tokuda J, Mehrtash A, Mousavi P, Kikinis R,
+Fennessy FM, Tempany CM, Tuncali K, Fedorov A. Open Source Platform for
+Transperineal In-Bore MRI-Guided Targeted Prostate Biopsy. IEEE Trans Biomed
+Eng. 2020 Feb;67(2):565-576. doi: 10.1109/TBME.2019.2918731. Epub 2019 May 23.
+PMID: 31135342; PMCID: PMC6874712.
+
+17: Taylor AJ, Slutzky T, Feuerman L, Ren H, Tokuda J, Nilsson K, Tse ZTH. MR-
+Conditional SMA-Based Origami Joint. IEEE ASME Trans Mechatron. 2019
+Apr;24(2):883-888. doi: 10.1109/tmech.2019.2891993. Epub 2019 Jan 10. PMID:
+32774079; PMCID: PMC7413301.
+
+18: Moreira P, Patel N, Wartenberg M, Li G, Tuncali K, Heffter T, Burdette EC,
+Iordachita I, Fischer GS, Hata N, Tempany CM, Tokuda J. Evaluation of robot-
+assisted MRI-guided prostate biopsy: needle path analysis during clinical
+trials. Phys Med Biol. 2018 Oct 16;63(20):20NT02. doi: 10.1088/1361-6560/aae214.
+PMID: 30226214; PMCID: PMC6198326.
+
+19: Wartenberg M, Schornak J, Gandomi K, Carvalho P, Nycz C, Patel N, Iordachita
+I, Tempany C, Hata N, Tokuda J, Fischer GS. Closed-Loop Active Compensation for
+Needle Deflection and Target Shift During Cooperatively Controlled Robotic
+Needle Insertion. Ann Biomed Eng. 2018 Oct;46(10):1582-1594. doi:
+10.1007/s10439-018-2070-2. Epub 2018 Jun 20. PMID: 29926303; PMCID: PMC6319385.
+
+20: Tokuda J, Chauvin L, Ninni B, Kato T, King F, Tuncali K, Hata N. Motion
+compensation for MRI-compatible patient-mounted needle guide device: estimation
+of targeting accuracy in MRI-guided kidney cryoablations. Phys Med Biol. 2018
+Apr 13;63(8):085010. doi: 10.1088/1361-6560/aab736. PMID: 29546845; PMCID:
+PMC5899055.
+
+21: Hovet S, Ren H, Xu S, Wood B, Tokuda J, Tse ZTH. MRI-powered biomedical
+devices. Minim Invasive Ther Allied Technol. 2018 Aug;27(4):191-202. doi:
+10.1080/13645706.2017.1402188. Epub 2017 Nov 16. PMID: 29141515; PMCID:
+PMC6504181.
+
+22: de Arcos J, Schmidt EJ, Wang W, Tokuda J, Vij K, Seethamraju RT, Damato AL,
+Dumoulin CL, Cormack RA, Viswanathan AN. Prospective Clinical Implementation of
+a Novel Magnetic Resonance Tracking Device for Real-Time Brachytherapy Catheter
+Positioning. Int J Radiat Oncol Biol Phys. 2017 Nov 1;99(3):618-626. doi:
+10.1016/j.ijrobp.2017.05.054. Epub 2017 Jun 7. PMID: 28843373; PMCID:
+PMC5720929.
+
+23: Doba N, Fukuda H, Numata K, Hao Y, Hara K, Nozaki A, Kondo M, Chuma M,
+Tanaka K, Takebayashi S, Koizumi N, Kobayashi A, Tokuda J, Maeda S. A new device
+for fiducial registration of image-guided navigation system for liver RFA. Int J
+Comput Assist Radiol Surg. 2018 Jan;13(1):115-124. doi:
+10.1007/s11548-017-1647-9. Epub 2017 Jul 17. PMID: 28718001.
+
+24: Su H, Iordachita II, Tokuda J, Hata N, Liu X, Seifabadi R, Xu S, Wood B,
+Fischer GS. Fiber Optic Force Sensors for MRI-Guided Interventions and
+Rehabilitation: A Review. IEEE Sens J. 2017 Apr 1;17(7):1952-1963. doi:
+10.1109/JSEN.2017.2654489. Epub 2017 Jan 17. PMID: 28652857; PMCID: PMC5482288.
+
+25: Frank T, Krieger A, Leonard S, Patel NA, Tokuda J. ROS-IGTL-Bridge: an open
+network interface for image-guided therapy using the ROS environment. Int J
+Comput Assist Radiol Surg. 2017 Aug;12(8):1451-1460. doi:
+10.1007/s11548-017-1618-1. Epub 2017 May 31. PMID: 28567563; PMCID: PMC5543207.
+
+26: Johnson M, Chen Y, Hovet S, Xu S, Wood B, Ren H, Tokuda J, Tse ZTH.
+Fabricating biomedical origami: a state-of-the-art review. Int J Comput Assist
+Radiol Surg. 2017 Nov;12(11):2023-2032. doi: 10.1007/s11548-017-1545-1. Epub
+2017 Mar 4. PMID: 28260164; PMCID: PMC5922460.
+
+27: Kapur T, Pieper S, Fedorov A, Fillion-Robin JC, Halle M, O'Donnell L, Lasso
+A, Ungi T, Pinter C, Finet J, Pujol S, Jagadeesan J, Tokuda J, Norton I, Estepar
+RSJ, Gering D, Aerts HJWL, Jakab M, Hata N, Ibanez L, Blezek D, Miller J,
+Aylward S, Grimson WEL, Fichtinger G, Wells WM, Lorensen WE, Schroeder W,
+Kikinis R. Increasing the impact of medical image computing using community-
+based open-access hackathons: The NA-MIC and 3D Slicer experience. Med Image
+Anal. 2016 Oct;33:176-180. doi: 10.1016/j.media.2016.06.035. Epub 2016 Jul 7.
+PMID: 27498015; PMCID: PMC5003088.
+
+28: Ciris PA, Balasubramanian M, Seethamraju RT, Tokuda J, Scalera J, Penzkofer
+T, Fennessy FM, Tempany-Afdhal CM, Tuncali K, Mulkern RV. Characterization of
+gradient echo signal decays in healthy and cancerous prostate at 3T improves
+with a Gaussian augmentation of the mono-exponential (GAME) model. NMR Biomed.
+2016 Jul;29(7):999-1009. doi: 10.1002/nbm.3556. Epub 2016 May 31. PMID:
+27241215; PMCID: PMC4957529.
+
+29: Tani S, Tatli S, Hata N, Garcia-Rojas X, Olubiyi OI, Silverman SG, Tokuda J.
+Three-dimensional quantitative assessment of ablation margins based on
+registration of pre- and post-procedural MRI and distance map. Int J Comput
+Assist Radiol Surg. 2016 Jun;11(6):1133-42. doi: 10.1007/s11548-016-1398-z. Epub
+2016 Apr 2. PMID: 27038962; PMCID: PMC4893989.
+
+30: Hata N, Song SE, Olubiyi O, Arimitsu Y, Fujimoto K, Kato T, Tuncali K, Tani
+S, Tokuda J. Body-mounted robotic instrument guide for image-guided cryotherapy
+of renal cancer. Med Phys. 2016 Feb;43(2):843-53. doi: 10.1118/1.4939875. PMID:
+26843245; PMCID: PMC4723400.
+
+31: Wang W, Viswanathan AN, Damato AL, Chen Y, Tse Z, Pan L, Tokuda J,
+Seethamraju RT, Dumoulin CL, Schmidt EJ, Cormack RA. Evaluation of an active
+magnetic resonance tracking system for interstitial brachytherapy. Med Phys.
+2015 Dec;42(12):7114-21. doi: 10.1118/1.4935535. PMID: 26632065; PMCID:
+PMC4662673.
+
+32: Su H, Shang W, Cole G, Li G, Harrington K, Camilo A, Tokuda J, Tempany CM,
+Hata N, Fischer GS. Piezoelectrically Actuated Robotic System for MRI-Guided
+Prostate Percutaneous Therapy. IEEE ASME Trans Mechatron. 2015
+Aug;20(4):1920-1932. doi: 10.1109/TMECH.2014.2359413. PMID: 26412962; PMCID:
+PMC4580290.
+
+33: Eslami S, Shang W, Li G, Patel N, Fischer GS, Tokuda J, Hata N, Tempany CM,
+Iordachita I. In-bore prostate transperineal interventions with an MRI-guided
+parallel manipulator: system development and preliminary evaluation. Int J Med
+Robot. 2016 Jun;12(2):199-213. doi: 10.1002/rcs.1671. Epub 2015 Jun 26. PMID:
+26111458; PMCID: PMC4691445.
+
+34: Tokuda J, Plishker W, Torabi M, Olubiyi OI, Zaki G, Tatli S, Silverman SG,
+Shekher R, Hata N. Graphics Processing Unit-Accelerated Nonrigid Registration of
+MR Images to CT Images During CT-Guided Percutaneous Liver Tumor Ablations. Acad
+Radiol. 2015 Jun;22(6):722-33. doi: 10.1016/j.acra.2015.01.007. Epub 2015 Mar
+14. PMID: 25784325; PMCID: PMC4428967.
+
+35: Tilak G, Tuncali K, Song SE, Tokuda J, Olubiyi O, Fennessy F, Fedorov A,
+Penzkofer T, Tempany C, Hata N. 3T MR-guided in-bore transperineal prostate
+biopsy: A comparison of robotic and manual needle-guidance templates. J Magn
+Reson Imaging. 2015 Jul;42(1):63-71. doi: 10.1002/jmri.24770. Epub 2014 Sep 27.
+PMID: 25263213; PMCID: PMC4376663.
+
+36: Penzkofer T, Tuncali K, Fedorov A, Song SE, Tokuda J, Fennessy FM, Vangel
+MG, Kibel AS, Mulkern RV, Wells WM, Hata N, Tempany CM. Transperineal in-bore
+3-T MR imaging-guided prostate biopsy: a prospective clinical observational
+study. Radiology. 2015 Jan;274(1):170-80. doi: 10.1148/radiol.14140221. Epub
+2014 Sep 15. PMID: 25222067; PMCID: PMC4334270.
+
+37: Tauscher S, Tokuda J, Schreiber G, Neff T, Hata N, Ortmaier T. OpenIGTLink
+interface for state control and visualisation of a robot for image-guided
+therapy systems. Int J Comput Assist Radiol Surg. 2015 Mar;10(3):285-92. doi:
+10.1007/s11548-014-1081-1. Epub 2014 Jun 13. PMID: 24923473; PMCID: PMC4265315.
+
+38: Wang W, Dumoulin CL, Viswanathan AN, Tse ZT, Mehrtash A, Loew W, Norton I,
+Tokuda J, Seethamraju RT, Kapur T, Damato AL, Cormack RA, Schmidt EJ. Real-time
+active MR-tracking of metallic stylets in MR-guided radiation therapy. Magn
+Reson Med. 2015 May;73(5):1803-11. doi: 10.1002/mrm.25300. Epub 2014 Jun 5.
+PMID: 24903165; PMCID: PMC4257908.
+
+39: Eslami S, Fischer GS, Song SE, Tokuda J, Hata N, Tempany CM, Iordachita I.
+Towards Clinically Optimized MRI-guided Surgical Manipulator for Minimally
+Invasive Prostate Percutaneous Interventions: Constructive Design. IEEE Int Conf
+Robot Autom. 2013 Dec 31;20132:1228-1233. doi: 10.1109/ICRA.2013.6630728. PMID:
+24683502; PMCID: PMC3966111.
+
+40: Tokuda J, Song SE, Tuncali K, Tempany C, Hata N. Configurable automatic
+detection and registration of fiducial frames for device-to-image registration
+in MRI-guided prostate interventions. Med Image Comput Comput Assist Interv.
+2013;16(Pt 3):355-62. doi: 10.1007/978-3-642-40760-4_45. PMID: 24505781; PMCID:
+PMC4009697.
+
+41: Nose K, Nagamine K, Tokuda J, Takino J, Hori T. [Polyethylene glycol
+accelerates loop-mediated isothermal amplification (LAMP) reaction]. Yakugaku
+Zasshi. 2013;133(10):1121-6. Japanese. doi: 10.1248/yakushi.13-00068. PMID:
+24088355.
+
+42: Li G, Su H, Shang W, Tokuda J, Hata N, Tempany CM, Fischer GS. A Fully
+Actuated Robotic Assistant for MRI-Guided Prostate Biopsy and Brachytherapy.
+Proc SPIE Int Soc Opt Eng. 2013 Mar 12;8671:867117. doi: 10.1117/12.2007669.
+PMID: 25076821; PMCID: PMC4112766.
+
+43: Song SE, Tokuda J, Tuncali K, Tempany CM, Zhang E, Hata N. Development and
+preliminary evaluation of a motorized needle guide template for MRI-guided
+targeted prostate biopsy. IEEE Trans Biomed Eng. 2013 Nov;60(11):3019-27. doi:
+10.1109/TBME.2013.2240301. Epub 2013 Jan 15. PMID: 23335658; PMCID: PMC3778164.
+
+44: Tokuda J, Tuncali K, Iordachita I, Song SE, Fedorov A, Oguro S, Lasso A,
+Fennessy FM, Tempany CM, Hata N. In-bore setup and software for 3T MRI-guided
+transperineal prostate biopsy. Phys Med Biol. 2012 Sep 21;57(18):5823-40. doi:
+10.1088/0031-9155/57/18/5823. Epub 2012 Sep 5. PMID: 22951350; PMCID:
+PMC3517895.
+
+45: Seifabadi R, Cho NB, Song SE, Tokuda J, Hata N, Tempany CM, Fichtinger G,
+Iordachita I. Accuracy study of a robotic system for MRI-guided prostate needle
+placement. Int J Med Robot. 2013 Sep;9(3):305-16. doi: 10.1002/rcs.1440. Epub
+2012 Jun 8. PMID: 22678990; PMCID: PMC3772968.
+
+46: Tokuda J, Song SE, Fischer GS, Iordachita II, Seifabadi R, Cho NB, Tuncali
+K, Fichtinger G, Tempany CM, Hata N. Preclinical evaluation of an MRI-compatible
+pneumatic robot for angulated needle placement in transperineal prostate
+interventions. Int J Comput Assist Radiol Surg. 2012 Nov;7(6):949-57. doi:
+10.1007/s11548-012-0750-1. Epub 2012 Jun 8. PMID: 22678723; PMCID: PMC3692285.
+
+47: Fedorov A, Tuncali K, Fennessy FM, Tokuda J, Hata N, Wells WM, Kikinis R,
+Tempany CM. Image registration for targeted MRI-guided transperineal prostate
+biopsy. J Magn Reson Imaging. 2012 Oct;36(4):987-92. doi: 10.1002/jmri.23688.
+Epub 2012 May 29. PMID: 22645031; PMCID: PMC3434292.
+
+48: Song SE, Hata N, Iordachita I, Fichtinger G, Tempany C, Tokuda J. A
+workspace-orientated needle-guiding robot for 3T MRI-guided transperineal
+prostate intervention: evaluation of in-bore workspace and MRI compatibility.
+Int J Med Robot. 2013 Mar;9(1):67-74. doi: 10.1002/rcs.1430. Epub 2012 Apr 10.
+PMID: 22492680; PMCID: PMC3674858.
+
+49: Egger J, Tokuda J, Chauvin L, Freisleben B, Nimsky C, Kapur T, Wells W.
+Integration of the OpenIGTLink network protocol for image-guided therapy with
+the medical platform MeVisLab. Int J Med Robot. 2012 Sep;8(3):282-90. doi:
+10.1002/rcs.1415. Epub 2012 Feb 28. PMID: 22374845; PMCID: PMC3405168.
+
+50: Mamata H, Tokuda J, Gill RR, Padera RF, Lenkinski RE, Sugarbaker DJ, Butler
+JP, Hatabu H. Clinical application of pharmacokinetic analysis as a biomarker of
+solitary pulmonary nodules: dynamic contrast-enhanced MR imaging. Magn Reson
+Med. 2012 Nov;68(5):1614-22. doi: 10.1002/mrm.24150. Epub 2012 Jan 9. PMID:
+22231729; PMCID: PMC3335927.
+
+51: Seifabadi R, Song SE, Krieger A, Cho NB, Tokuda J, Fichtinger G, Iordachita
+I. Robotic system for MRI-guided prostate biopsy: feasibility of teleoperated
+needle insertion and ex vivo phantom study. Int J Comput Assist Radiol Surg.
+2012 Mar;7(2):181-90. doi: 10.1007/s11548-011-0598-9. Epub 2011 Jun 23. PMID:
+21698389; PMCID: PMC3356244.
+
+52: Tokuda J, Mamata H, Gill RR, Hata N, Kikinis R, Padera RF Jr, Lenkinski RE,
+Sugarbaker DJ, Hatabu H. Impact of nonrigid motion correction technique on
+pixel-wise pharmacokinetic analysis of free-breathing pulmonary dynamic
+contrast-enhanced MR imaging. J Magn Reson Imaging. 2011 Apr;33(4):968-73. doi:
+10.1002/jmri.22490. PMID: 21448965; PMCID: PMC3069717.
+
+53: Song SE, Cho N, Tokuda J, Hata N, Tempany C, Fichtinger G, Iordachita I.
+Preliminary Evaluation of a MRI-compatible Modular Robotic System for MRI-guided
+Prostate Interventions. Proc IEEE RAS EMBS Int Conf Biomed Robot Biomechatron.
+2010 Sep 26;2010:796-801. doi: 10.1109/BIOROB.2010.5626987. PMID: 21132087;
+PMCID: PMC2995896.
+
+54: Arata J, Kozuka H, Kim HW, Takesue N, Vladimirov B, Sakaguchi M, Tokuda J,
+Hata N, Chinzei K, Fujimoto H. Open core control software for surgical robots.
+Int J Comput Assist Radiol Surg. 2010 May;5(3):211-20. doi:
+10.1007/s11548-009-0388-9. Epub 2009 Jul 28. PMID: 20033506; PMCID: PMC2925237.
+
+55: Oguro S, Tokuda J, Elhawary H, Haker S, Kikinis R, Tempany CM, Hata N. MRI
+signal intensity based B-spline nonrigid registration for pre- and
+intraoperative imaging during prostate brachytherapy. J Magn Reson Imaging. 2009
+Nov;30(5):1052-8. doi: 10.1002/jmri.21955. PMID: 19856437; PMCID: PMC2801562.
+
+56: Tokuda J, Fischer GS, DiMaio SP, Gobbi DG, Csoma C, Mewes PW, Fichtinger G,
+Tempany CM, Hata N. Integrated navigation and control software system for MRI-
+guided robotic prostate interventions. Comput Med Imaging Graph. 2010
+Jan;34(1):3-8. doi: 10.1016/j.compmedimag.2009.07.004. Epub 2009 Aug 20. PMID:
+19699057; PMCID: PMC2815337.
+
+57: Tokuda J, Fischer GS, Papademetris X, Yaniv Z, Ibanez L, Cheng P, Liu H,
+Blevins J, Arata J, Golby AJ, Kapur T, Pieper S, Burdette EC, Fichtinger G,
+Tempany CM, Hata N. OpenIGTLink: an open network protocol for image-guided
+therapy environment. Int J Med Robot. 2009 Dec;5(4):423-34. doi:
+10.1002/rcs.274. PMID: 19621334; PMCID: PMC2811069.
+
+58: Morikawa S, Naka S, Murakami K, Kurumi Y, Shiomi H, Tani T, Haque HA, Tokuda
+J, Hata N, Inubushi T. Preliminary clinical experiences of a motorized
+manipulator for magnetic resonance image-guided microwave coagulation therapy of
+liver tumors. Am J Surg. 2009 Sep;198(3):340-7. doi:
+10.1016/j.amjsurg.2009.02.006. Epub 2009 Jul 12. PMID: 19596118.
+
+59: Tokuda J, Schmitt M, Sun Y, Patz S, Tang Y, Mountford CE, Hata N, Wald LL,
+Hatabu H. Lung motion and volume measurement by dynamic 3D MRI using a
+128-channel receiver coil. Acad Radiol. 2009 Jan;16(1):22-7. doi:
+10.1016/j.acra.2008.07.021. PMID: 19064208; PMCID: PMC2804926.
+
+60: Tokuda J, Fischer GS, Csoma C, DiMaio SP, Gobbi DG, Fichtinger G, Tempany
+CM, Hata N. Software strategy for robotic transperineal prostate therapy in
+closed-bore MRI. Med Image Comput Comput Assist Interv. 2008;11(Pt 2):701-9.
+doi: 10.1007/978-3-540-85990-1_84. PMID: 18982666; PMCID: PMC2692941.
+
+61: Fischer GS, Iordachita I, Csoma C, Tokuda J, Mewes PW, Tempany CM, Hata N,
+Fichtinger G. Pneumatically Operated MRI-Compatible Needle Placement Robot for
+Prostate Interventions. IEEE Int Conf Robot Autom. 2008 Jun 13;2008:2489-2495.
+doi: 10.1109/ROBOT.2008.4543587. PMID: 21686038; PMCID: PMC3113650.
+
+62: Fischer GS, Iordachita I, Csoma C, Tokuda J, Dimaio SP, Tempany CM, Hata N,
+Fichtinger G. MRI-Compatible Pneumatic Robot for Transperineal Prostate Needle
+Placement. IEEE ASME Trans Mechatron. 2008 Jun 1;13(3):295-305. doi:
+10.1109/TMECH.2008.924044. PMID: 21057608; PMCID: PMC2974180.
+
+63: Tokuda J, Morikawa S, Haque HA, Tsukamoto T, Matsumiya K, Liao H, Masamune
+K, Dohi T. Adaptive 4D MR imaging using navigator-based respiratory signal for
+MRI-guided therapy. Magn Reson Med. 2008 May;59(5):1051-61. doi:
+10.1002/mrm.21436. PMID: 18429011; PMCID: PMC3004024.
+
+64: Hata N, Tokuda J, Hurwitz S, Morikawa S. MRI-compatible manipulator with
+remote-center-of-motion control. J Magn Reson Imaging. 2008 May;27(5):1130-8.
+doi: 10.1002/jmri.21314. PMID: 18407542; PMCID: PMC2815332.
+
+65: Lesniak J, Tokuda J, Kikinis R, Burghart C, Hata N. A device guidance method
+for organ motion compensation in MRI-guided therapy. Phys Med Biol. 2007 Nov
+7;52(21):6427-38. doi: 10.1088/0031-9155/52/21/006. Epub 2007 Oct 11. PMID:
+17951853.
+
+66: Tokuda J, Morikawa S, Haque HA, Tsukamoto T, Matsumiya K, Liao H, Masamune
+K, Dohi T. New 4-D imaging for real-time intraoperative MRI: adaptive 4-D scan.
+Med Image Comput Comput Assist Interv. 2006;9(Pt 1):454-61. doi:
+10.1007/11866565_56. PMID: 17354922.
+
+67: Tokuda J, Morikawa S, Dohi T, Hata N. Motion tracking in MR-guided liver
+therapy by using navigator echoes and projection profile matching. Acad Radiol.
+2004 Jan;11(1):111-20. doi: 10.1016/s1076-6332(03)00599-3. PMID: 14746411.
+
+68: Morikawa S, Inubushi T, Kurumi Y, Naka S, Sato K, Demura K, Tani T, Haque
+HA, Tokuda J, Hata N. Advanced computer assistance for magnetic resonance-guided
+microwave thermocoagulation of liver tumors. Acad Radiol. 2003
+Dec;10(12):1442-9. doi: 10.1016/s1076-6332(03)00508-7. PMID: 14697012.
+
+69: Morikawa S, Inubushi T, Kurumi Y, Naka S, Sato K, Tani T, Haque HA, Tokuda
+J, Hata N. New assistive devices for MR-guided microwave thermocoagulation of
+liver tumors. Acad Radiol. 2003 Feb;10(2):180-8. doi:
+10.1016/s1076-6332(03)80043-0. PMID: 12583570. 
 
 
 
