@@ -4,21 +4,10 @@ date: 2023-05-15T12:00:00+5:00
 weight: 4
 ---
 
-![Needle Guidance Projects](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
 
-# Objectives
+We are focused on medical imaging and interventions. Our contributions primarily focus on developing innovative techniques and technologies to improve the accuracy and safety of needle-based procedures.
 
-Financial accounting and financial reporting are often used as synonyms.
+One of our notable achievements is the development of image-guided robotic systems for needle interventions. We have worked on designing and implementing robotic platforms that can precisely guide needles to the target location within the human body. These systems incorporate advanced imaging modalities, such as MRI (Magnetic Resonance Imaging) or CT (Computed Tomography), to provide real-time feedback and enable accurate needle placement.
 
-1. According to International Financial Reporting Standards: the objective of financial reporting is:
-2. To provide financial information that is useful to existing and potential investors, lenders and other creditors in making decisions about providing resources to the reporting entity.
-3. According to the European Accounting Association:
-
-## Relevance
-
-Relevance is the capacity of the financial information to influence the decision of its users. The ingredients of relevance are the predictive value and confirmatory value. Materiality is a sub-quality of relevance.
-
-> The ingredients of relevance are the predictive value and confirmatory value.
-
-
+We have also made significant contributions to the field of prostate interventions. We have devised techniques to enhance the accuracy of prostate needle biopsies, which are commonly performed to diagnose prostate cancer. By leveraging advanced imaging and robotic technologies, Tokuda has developed methods to improve the targeting and sampling during these procedures, increasing diagnostic yield and reducing complications.
 

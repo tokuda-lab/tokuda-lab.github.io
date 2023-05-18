@@ -4,9 +4,11 @@ date: 2023-05-15T12:00:00+5:00
 weight: 4
 ---
 
+The aim of this study was to develop a method to delineate the lethally frozen-tissue region (temperature less than -40°C) arising from interventional cryoablation procedures using a short tau inversion-recovery ultrashort echo-time (STIR-UTE) magnetic resonance (MR) imaging sequence. This method could serve as an intraprocedural validation of the completion of tumor ablation, reducing the number of local recurrences after cryoablation procedures.
+
+
 ![Cryoablation Monitoring](/images/projects/mri_cryoablation.jpg)
 
-The aim of this study was to develop a method to delineate the lethally frozen-tissue region (temperature less than -40°C) arising from interventional cryoablation procedures using a short tau inversion-recovery ultrashort echo-time (STIR-UTE) magnetic resonance (MR) imaging sequence. This method could serve as an intraprocedural validation of the completion of tumor ablation, reducing the number of local recurrences after cryoablation procedures.
 
 The method relies on the short T1 and T2* relaxation times of frozen soft tissue. Pointwise Encoding Time with Radial Acquisition, a 3-dimensional UTE sequence with TE = 70 microseconds, was optimized with STIR to null tissues with a T1 of approximately 271 milliseconds, the threshold T1. Because the T1 relaxation time of frozen tissue in the temperature range of -40°C < temperature < -8°C is shorter than the threshold T1 at the 3-tesla magnetic field, tissues in this range should appear hyperintense. The sequence was evaluated in ex vivo frozen tissue, where image intensity and actual tissue temperatures, measured by thermocouples, were correlated. Thereafter, the sequence was evaluated clinically in 12 MR-guided prostate cancer cryoablations, where MR-compatible cryoprobes were used to destroy cancerous tissue and preserve surrounding normal tissue.
 
