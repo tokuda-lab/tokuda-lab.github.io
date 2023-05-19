@@ -1,8 +1,15 @@
 ---
-title: "Precision Needle Guidance"
+title: "Smart Needle Guidance for Prostate Interventions"
 date: 2023-05-15T12:00:00+5:00
 weight: 4
 ---
+
+
+Needle guidance for precision needle placement in the prostate.
+
+
+We are developing a 
+
 
 
 We are focused on medical imaging and interventions. Our contributions primarily focus on developing innovative techniques and technologies to improve the accuracy and safety of needle-based procedures.
