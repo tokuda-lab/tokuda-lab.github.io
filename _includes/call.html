@@ -1,5 +1,12 @@
 <div class="call">
   <div class="call-box-top">
+    {% if site.data.contact.name %}
+        <div class="call-name">{{ site.data.contact.name }} </div>
+    {% endif %}
+    {% if site.data.contact.office %}
+        <div class="call-office"><strong>Address: </strong>{{ site.data.contact.office }} </div>
+    {% endif %}
+
     {% if site.data.contact.phone %}
         <div class="call-phone"><strong>Phone: </strong> {{ site.data.contact.phone }} </div>
     {% endif %}
