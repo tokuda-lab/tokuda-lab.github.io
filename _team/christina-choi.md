@@ -3,6 +3,7 @@ title: "Christina Choi"
 jobtitle: Intern
 institution: "Kinkaid School, TX"
 promoted: alumni
-weight: 3
+years: 2016
+weight: 102016
 ---
 
