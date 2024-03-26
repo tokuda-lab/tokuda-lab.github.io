@@ -3,6 +3,7 @@ title: "Isha Gangavaram"
 jobtitle: Intern
 institution: "Academy for Health and Medical Sciences"
 promoted: alumni
-weight: 3
+years: 2021-2022
+weight: 102021
 ---
 
