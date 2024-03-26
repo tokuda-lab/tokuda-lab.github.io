@@ -3,6 +3,7 @@ title: "Laurent Chauvin, M.S."
 jobtitle: Engineer
 institution: "Software Engineer"
 promoted: alumni
-weight: 3
+years: 2010-2015
+weight: 32010
 ---
 
