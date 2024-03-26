@@ -4,6 +4,6 @@ jobtitle: Intern
 institution: "Research Fellow"
 promoted: alumni
 years: 2018-2019
-weight: 102018
+weight: 12018
 ---
 
