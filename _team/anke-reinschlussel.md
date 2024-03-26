@@ -1,8 +1,9 @@
 ---
-title: "Anke Reinschlüssel"
+title: "Anke Reinschlüssel, Ph.D."
 jobtitle: Visiting Student
-institution: "Ph.D. Candidate at University of Bremen, Germany"
+institution: "University of Bremen, Germany"
 promoted: alumni
+years: 2017
 weight: 3
 ---
 
