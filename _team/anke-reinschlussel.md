@@ -4,6 +4,6 @@ jobtitle: Visiting Student
 institution: "University of Bremen, Germany"
 promoted: alumni
 years: 2017
-weight: 3
+weight: 102017
 ---
 
