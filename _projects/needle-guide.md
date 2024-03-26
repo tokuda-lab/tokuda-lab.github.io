@@ -8,10 +8,6 @@ weight: 4
 Needle guidance for precision needle placement in the prostate.
 
 
-We are developing a 
-
-
-
 We are focused on medical imaging and interventions. Our contributions primarily focus on developing innovative techniques and technologies to improve the accuracy and safety of needle-based procedures.
 
 One of our notable achievements is the development of image-guided robotic systems for needle interventions. We have worked on designing and implementing robotic platforms that can precisely guide needles to the target location within the human body. These systems incorporate advanced imaging modalities, such as MRI (Magnetic Resonance Imaging) or CT (Computed Tomography), to provide real-time feedback and enable accurate needle placement.
