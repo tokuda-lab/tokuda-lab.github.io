@@ -3,6 +3,7 @@ title: "Daniel Flyer"
 jobtitle: Intern
 institution: "Roslyn High School, NY"
 promoted: alumni
-weight: 3
+years: 2019
+weight: 102019
 ---
 
