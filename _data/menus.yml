@@ -8,11 +8,8 @@ main:
   - name: "Publications"
     url: "/publications/"
     weight: 4
-  - name: "About"
-    url: "/about/"
-    weight: 4
-  - name: "Events"
-    url: "/events/"
+  - name: "News"
+    url: "/news/"
     weight: 4
   - name: "Contact"
     url: "/contact/"

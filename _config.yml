@@ -19,6 +19,8 @@ collections:
   projects:
     output: true
     sort_by: weight
+  news:
+    output: true
   team:
     output: true
 
@@ -28,6 +30,11 @@ defaults:
       type: "projects"
     values:
       layout: "project"
+  - scope:
+      path: ""
+      type: "news"
+    values:
+      layout: "newspost"
   - scope:
       path: ""
       type: "team"
