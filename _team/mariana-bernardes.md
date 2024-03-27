@@ -1,8 +1,10 @@
 ---
 title: "Mariana Bernardes, Ph.D."
 date: 2018-12-20T13:44:23+10:00
+image: "images/team/mariana-bernardes.jpg"
 jobtitle: "Research Fellow"
 linkedinurl: "https://www.linkedin.com/"
+catalysturl: "https://connects.catalyst.harvard.edu/Profiles/display/Person/203125"
 promoted: true
 weight: 4
 ---
