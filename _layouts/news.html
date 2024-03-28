@@ -19,16 +19,16 @@ bodyClass: "page-news"
   <div class="row">
     {% assign sorted_newspost = site.news | sort: "date" | reverse %}
     {% for newspost in sorted_newspost %}
-    <!-- <div class="col-12 col-md-6 mb-3"> -->
+    <div class="col-12 col-md-8">
       <div class="newspost newspost-summary">
         <div class="newspost-content">
           <h2 class="newspost-title">
-            {{ newspost.date| date: "%m/%d/%Y" }} <a href="{{ newspost.url | relative_url }}">{{ newspost.title }}</a>
+            <a href="{{ newspost.url | relative_url }}">{{ newspost.title }}</a>
           </h2>
-          <p>{{ newspost.content | markdownify | strip_html | truncate: 200 }}</p>
+          <p>{{ newspost.content | markdownify | strip_html | truncate: 200 }} <strong>(Posted on {{ newspost.date| date: "%m/%d/%Y" }}) </strong></p>
         </div>
       </div>
-    <!--  </div>-->
+    </div>
     {% endfor %}
   </div>
 </div>
