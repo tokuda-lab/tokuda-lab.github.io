@@ -18,7 +18,7 @@ and Junichi Tokuda, Ph.D. (BWH). The BWH team will provide a software system tha
 and robot control using the software infrastructure developed through a separate R01 project.
 
 ## Related Papers:
-{% bibliography --query @*[author=Schmidt] %}
+{% bibliography --file tokuda_ref --query @*[author=Schmidt] %}
 
 ## Related Links:
 - [Project Information on NIH RePORTER](https://reporter.nih.gov/search/Mv_s6y52AUydvKgXX9TPKA/project-details/10638497)
