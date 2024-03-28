@@ -46,6 +46,8 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-regex-replace
+  - jekyll-scholar
 
 exclude:
   - Gemfile
@@ -58,3 +60,12 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+scholar:
+  style: american-medical-association-no-et-al
+  sort_by: year,month
+  order: descending
+  bibliography: tokuda_pub.bib
+  bibliography_template: bib
+  replace_strings: true
+  query: "@*"

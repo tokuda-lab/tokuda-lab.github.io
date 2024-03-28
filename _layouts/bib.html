@@ -1,0 +1,18 @@
+---
+---
+
+{{reference | regex_replace_once: '\d+?\.\s', ''}}
+
+<!--
+{% if entry.doi %}
+doi: <a target="_blank" href="http://dx.doi.org/{{ entry.doi }}" rel="noreferrer">{{ entry.doi }}</a>
+{% endif %}
+-->
+
+{% if entry.pmid %}
+PMID: {{ entry.pmid }}.
+{% endif %}
+
+{% if entry.pmc %}
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/{{ entry.pmc }}/" rel="noreferrer">{{ entry.pmc }}</a>.
+{% endif %}
