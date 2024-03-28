@@ -5,7 +5,7 @@ description: Publications
 bodyClass: page-default
 ---
 
-## Peer-Reviewed Journal Articles 
+## Peer-Reviewed Journal Articles
 
 {% bibliography --file tokuda_ref %}
 

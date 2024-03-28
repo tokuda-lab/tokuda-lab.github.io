@@ -17,10 +17,10 @@ The project will be led by Drs. Yue Chen, Ph.D. (Georgia Tech), Aravindan Koland
 and Junichi Tokuda, Ph.D. (BWH). The BWH team will provide a software system that integrates image processing, visualization,
 and robot control using the software infrastructure developed through a separate R01 project.
 
-## Related Papers:
-{% bibliography --file tokuda_ref --query @*[author=Schmidt] %}
+## Papers Related to This Collaboration
+{% bibliography --file tokuda_ref --query @*[pmid=35142398||pmid=35185321||pmid=28260164||pmid=26632065] %}
 
-## Related Links:
+## Links:
 - [Project Information on NIH RePORTER](https://reporter.nih.gov/search/Mv_s6y52AUydvKgXX9TPKA/project-details/10638497)
 - [Dr. Yue Chen's Profile](https://research.gatech.edu/yue-chen)
 - [Dr. Aravindan Kolandaivelu's Profile](https://www.hopkinsmedicine.org/profiles/details/aravindan-kolandaivelu)
