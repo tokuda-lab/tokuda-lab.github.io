@@ -4,12 +4,12 @@ date: 2023-06-26 12:00:00+5:00
 weight: 4
 ---
 
-Our collaborative team, consisting of scientists and clinician from Georgia Institute of Technology (Georgia Tech), 
-Johns Hopkins University (JHU), and Brigham and Women's Hospital (BWH), have received a new R01 grant entitled
+Our collaborative team, consisting of scientists and clinicians from Georgia Institute of Technology (Georgia Tech), 
+Johns Hopkins University (JHU) and Brigham and Women's Hospital (BWH) have received a new R01 grant entitled
 "Improved arrhythmia ablation via MR-guided robotic catheterization and multimodal clinician feedback"
 from the National Institute of Biomedical Imaging and Bioengineering.
 
-With this 4-year, $2.5M grant, we will develop a multi-modal feedback-based navigation system and
+With this 4-year, $2.5M grant, we will develop a multimodal feedback-based navigation system and
 MR- compatible robotic platform that enables precise, continuous, and permanent lesion creation
 during MR-guided radiofrequency ablation (RFA) for atrial fibrillation (AF) treatment. 
 
