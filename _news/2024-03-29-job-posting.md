@@ -32,7 +32,7 @@ This fellowship position is an excellent opportunity for those already pursuing 
   - Our institution may offer a visa support depending on the job title and the candidate's qualifications. For more information about visa support, please contact [The Office for Global Professionals and Scholars (GPS)](https://pips.partners.org).
   
 
-For inquiries, please contact [Junichi Tokuda](http://localhost:4000/contact/).
+For inquiries, please contact [Junichi Tokuda](/contact/).
 
 
 
