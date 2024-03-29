@@ -5,10 +5,12 @@
 $primary: #003a93;
 $primary-dark: #a01b16;
 $secondary: #009aa3;
-$black: #2f2f41;
+//$black: #2f2f41;
+$black: #3c3a3a;
 $white: #ffffff;
 $white-offset: #b0e3e2;
 $steel: #5c5a5a;
+
 
 //// Colors - original
 //$primary: #e5261f;
@@ -18,6 +20,8 @@ $steel: #5c5a5a;
 //$white: #ffffff;
 //$white-offset: #fff6f8;
 //$steel: #5c5a5a;
+
+$body-color: $black;
 
 // Links
 $link-color: $primary;
