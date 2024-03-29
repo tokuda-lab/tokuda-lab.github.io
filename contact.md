@@ -29,43 +29,4 @@ Please note that availability of paid positions depends on our funding situatio
 
 ### Postdoctoral Fellow
 
-- Purpose
-  - Have a few years of training after obtaining a doctoral degree.
-  - Acquire additional skills/expertise in biomedical engineering.
-  - Acquire academic skills, such as publication, grant writing, etc. 
-- Duties and Responsibilities
-  - Develop/modify mechanical devices for image-guided interventions.
-  - Develop algorithms for planning and guiding the procedure.
-  - Test developed devices in the clinical environment.
-  - Work with collaborators in other institutions to define requirements and specifications.
-  - Document the requirement and specifications of the developed hardware and software.
-  - Publish research outcomes in conferences or scientific journals.
-- Qualifications
-  - Ph.D. in biomedical engineering, mechanical engineering, electrical engineering, applied physics, or computer science with an emphasis on experimental work.
-- Skills/Abilities/Competencies Required
-  - Business-level English speaking and writing skills.
-  - Experience in developing robotic or mechatronic systems.
-  - Skill in writing software using a programming language (C/C++, Python, Java).
-  - Skill in using basic software development tools (Git, CMake, debuggers, …).
-
-
-### Research Assistant
-
-- Purpose
-  - Improve your engineering skills in biomedical engineering projects.
-  - Acquire additional skills/expertise.
-- Duties and Responsibilities
-  - Develop/modify mechanical devices for image-guided interventions.
-  - Develop algorithms for planning and guiding the procedure.
-  - Test developed devices in the clinical environment.
-  - Work with collaborators in other institutions to define requirements and specifications.
-  - Document the requirement and specifications of the developed hardware and software.
-  - Test developed software in clinical environments. This may require being in the hospital early in the morning (7:30am-) or out of regular business hours (5pm-midnight).
-- Qualifications
-  - A master’s degree in biomedical engineering, mechanical engineering, electrical engineering, applied physics, or computer science is preferred.
-- Skills/Abilities/Competencies Required
-  - Business-level English speaking and writing skills.
-  - Experience in developing robotic or mechatronic systems. 
-  - Experience in designing mechanical devices using CAD.
-  - Experience in developing software using a programming language (C/C++, Python, Java).
-  - Basic skill to use software development tools (Git, CMake, debuggers, …).
+See [News](/news/) for the latest job posts.
