@@ -21,8 +21,8 @@
   
   
   <meta name="twitter:card" content="summary"/>
-  <meta name="twitter:site" content=""/>
-  <meta name="twitter:creator" content=""/>
+  
+  
 
 </head>
 
@@ -48,7 +48,7 @@
     </li>
     
     <li class="">
-      <a href="/contact/">Contact</a>
+      <a href="/about/">About</a>
     </li>
     
   </ul>
@@ -88,7 +88,7 @@
     </li>
     
     <li class="">
-      <a href="/contact/">Contact</a>
+      <a href="/about/">About</a>
     </li>
     
   </ul>
@@ -107,7 +107,173 @@
     <div class="col-12 col-md-8">
       <div class="project project-single">
         <h1 class="title">Software System for Image-Guided Robot-Assisted Interventions</h1>
-        <div class="content">
+        <div class="content"><p>Seamless integration of medical image computing and medical robotics.</p>
+
+<p>This project aims to support research on image-guided robot-assisted interventions (IGRI) by providing a common open-source software platform for efficient research, development, and resource sharing. IGRI combines image guidance and robotic assistance to enhance the physician’s ability to see and physically access the lesion with minimal invasion, resulting in a better clinical outcome.</p>
+
+<p><img src="/images/projects/rosmed-architecture.jpg" alt="Architecture" /></p>
+
+<p>Open-source software is crucial for academic research in many fields, including medical imaging and robotics. It is not simply a cheap alternative to commercial software but has become part of an ecosystem where researchers and engineers share program codes to avoid “reinventing the wheel” and advance the entire field together. Historically, such codes are shared as libraries, which are designed to be incorporated into software applications to reduce the coding effort. However, as software applications become large and complex, it has become a common practice for application developers to deal with numerous libraries to build a software package. Simply sharing libraries is not enough to keep application development manageable. As a solution to this ever-growing software complexity, research communities have been committed to open-source integrated platforms to facilitate rapid and efficient development. Typically, those platforms provide mechanisms for common tasks, such as data I/O and management, as well as visualization. They also provide mechanisms to easily customize or extend with minimal coding efforts, such as plug-in and scripting language interfaces. The 3D Slicer and ROS are two notable examples of integrated platforms that evolved in medical imaging and robotics, respectively.</p>
+
+<p>Integrating 3D Slicer and ROS for IGRI research is seemingly an obvious choice as they already provide many medical imaging and robotics algorithms used in IGRI systems. However, IGRI research has a unique engineering challenge. To build an IGRI system, medical imaging tools, and robotics software/hardware must work harmoniously to achieve the goal. For example, in typical IGRI systems, the robot’s motion is planned in the imaging space; hence, the image processing and the kinematics algorithms must share the same coordinate frame. However, building such a robust software system is difficult, particularly in a low-resource academic research setting.</p>
+
+<p>Therefore, the goal of this project is to enable seamless integration of 3D Slicer and ROS to establish an open-source software ecosystem for IGRI systems. We believe that the project will allow researchers to incorporate state-of-the-art algorithms and models into their systems for medical robotics with minimum engineering effort and ultimately facilitate rapid and seamless bench-to-bedside translation.</p>
+
+<h2 id="collaborators">Collaborators</h2>
+<ul>
+  <li><a href="https://engineering.jhu.edu/faculty/axel-krieger/">Axel Krieger, Ph.D.</a> (Johns Hopkins University)</li>
+  <li><a href="https://www.cs.jhu.edu/~sleonard/">Simon Leonard, Ph.D.</a> (Johns Hopkins University)</li>
+  <li><a href="https://enme.umd.edu/clark/faculty/539/Mark-D-Fuge">Mark Fuge, Ph.D.</a>_ (University of Marlyand)</li>
+  <li><a href="https://malonecenter.jhu.edu/people/anton-deguet/">Anton Deguet</a> (Johns Hopkins University)</li>
+</ul>
+
+<h2 id="related-page">Related Page</h2>
+<ul>
+  <li><a href="https://rosmed.github.io">ROS for Medical Robotics</a></li>
+  <li><a href="http://openigtlink.org">OpenIGTLink</a></li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<ol class="bibliography"><li><span id="Connolly2022-ig">Connolly L, Deguet A, Leonard S, Tokuda J, Ungi T, Krieger A, Kazanzides P, Mousavi P, Fichtinger G, Taylor RH. Bridging 3D Slicer and ROS2 for Image-Guided Robotic
+               Interventions. <i>Sensors</i>. 2022;22(14). doi:10.3390/s22145336</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.3390/s22145336" rel="noreferrer">10.3390/s22145336</a>
+
+-->
+
+
+PMID: 35891016.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC9324680/" rel="noreferrer">PMC9324680</a>.
+
+</li>
+<li><span id="Frank2017-ld">Frank T, Krieger A, Leonard S, Patel NA, Tokuda J. ROS-IGTL-Bridge: an open network interface for image-guided
+               therapy using the ROS environment. <i>Int J Comput Assist Radiol Surg</i>. 2017;12(8):1451–1460. doi:10.1007/s11548-017-1618-1</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1007/s11548-017-1618-1" rel="noreferrer">10.1007/s11548-017-1618-1</a>
+
+-->
+
+
+PMID: 28567563.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC5543207/" rel="noreferrer">PMC5543207</a>.
+
+</li>
+<li><span id="Egger2012-tz">Egger J, Tokuda J, Chauvin L, Freisleben B, Nimsky C, Kapur T, Wells W. Integration of the OpenIGTLink network protocol for
+                image-guided therapy with the medical platform MeVisLab. <i>Int J Med Robot</i>. 2012;8(3):282–290. doi:10.1002/rcs.1415</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1002/rcs.1415" rel="noreferrer">10.1002/rcs.1415</a>
+
+-->
+
+
+PMID: 22374845.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3405168/" rel="noreferrer">PMC3405168</a>.
+
+</li>
+<li><span id="Egger2012-oe">Egger J, Tokuda J, Chauvin L, Freisleben B, Nimsky C, Kapur T, Wells W. Integration of the OpenIGTLink network protocol for
+               image-guided therapy with the medical platform MeVisLab. <i>Int J Med Robot</i>. 2012;8(3):282–290. doi:10.1002/rcs.1415</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1002/rcs.1415" rel="noreferrer">10.1002/rcs.1415</a>
+
+-->
+
+
+PMID: 22374845.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3405168/" rel="noreferrer">PMC3405168</a>.
+
+</li>
+<li><span id="Arata2010-ze">Arata J, Kozuka H, Kim HW, Takesue N, Vladimirov B, Sakaguchi M, Tokuda J, Hata N, Chinzei K, Fujimoto H. Open core control software for surgical robots. <i>Int J Comput Assist Radiol Surg</i>. 2010;5(3):211–220. doi:10.1007/s11548-009-0388-9</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1007/s11548-009-0388-9" rel="noreferrer">10.1007/s11548-009-0388-9</a>
+
+-->
+
+
+PMID: 20033506.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2925237/" rel="noreferrer">PMC2925237</a>.
+
+</li>
+<li><span id="Tokuda2010-qp">Tokuda J, Fischer GS, DiMaio SP, Gobbi DG, Csoma C, Mewes PW, Fichtinger G, Tempany CM, Hata N. Integrated navigation and control software system for
+               MRI-guided robotic prostate interventions. <i>Comput Med Imaging Graph</i>. 2010;34(1):3–8. doi:10.1016/j.compmedimag.2009.07.004</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1016/j.compmedimag.2009.07.004" rel="noreferrer">10.1016/j.compmedimag.2009.07.004</a>
+
+-->
+
+
+PMID: 19699057.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2815337/" rel="noreferrer">PMC2815337</a>.
+
+</li>
+<li><span id="Tokuda2009-gq">Tokuda J, Fischer GS, Papademetris X, Yaniv Z, Ibanez L, Cheng P, Liu H, Blevins J, Arata J, Golby AJ, Kapur T, Pieper S, Burdette EC, Fichtinger G, Tempany CM, Hata N. OpenIGTLink: an open network protocol for image-guided therapy
+                environment. <i>Int J Med Robot</i>. 2009;5(4):423–434. doi:10.1002/rcs.274</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1002/rcs.274" rel="noreferrer">10.1002/rcs.274</a>
+
+-->
+
+
+PMID: 19621334.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2811069/" rel="noreferrer">PMC2811069</a>.
+
+</li>
+<li><span id="Tokuda2009-rq">Tokuda J, Fischer GS, Papademetris X, Yaniv Z, Ibanez L, Cheng P, Liu H, Blevins J, Arata J, Golby AJ, Kapur T, Pieper S, Burdette EC, Fichtinger G, Tempany CM, Hata N. OpenIGTLink: an open network protocol for image-guided therapy
+               environment. <i>Int J Med Robot</i>. 2009;5(4):423–434. doi:10.1002/rcs.274</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1002/rcs.274" rel="noreferrer">10.1002/rcs.274</a>
+
+-->
+
+
+PMID: 19621334.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2811069/" rel="noreferrer">PMC2811069</a>.
+
+</li></ol>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>This study was supported in part by the National Institutes of Health (R01EB020667).</p>
 </div>
       </div>
     </div>
@@ -145,8 +311,6 @@
             <div class="social">
   
     <a href="https://github.com/openigtlink" target="blank"><img src="/images/social/github.svg" title="Github" alt="Github" /></a>
-  
-    <a href="https://twitter.com/tokjun" target="blank"><img src="/images/social/twitter.svg" title="Twitter" alt="Twitter" /></a>
   
 </div>
 
