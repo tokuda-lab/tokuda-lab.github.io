@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Data-Driven Adaptive Needle Insertion Assist for Transperineal Prostate Interventions</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  
+  <meta property="og:title" content="Data-Driven Adaptive Needle Insertion Assist for Transperineal Prostate Interventions"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  
+  
+  <meta name="twitter:card" content="summary"/>
+  
+  
+
+</head>
+
+<body class='page page-project'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/projects/">Projects</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/publications/">Publications</a>
+    </li>
+    
+    <li class="">
+      <a href="/news/">News</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img width="240px" height="40px" alt="Tokuda Laboratory" src="/images/logo/logo.png" /></a>
+      <div class="labname">
+        Tokuda Laboratory, Department of Radiology
+      </div>
+    </div>
+    <div class="logo-mobile">
+      <a href=""><img width="32px" height="32px" alt="Tokuda Laboratory" src="/images/logo/logo-mobile.png" /></a>
+    </div>
+
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/projects/">Projects</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/publications/">Publications</a>
+    </li>
+    
+    <li class="">
+      <a href="/news/">News</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="project project-single">
+        <h1 class="title">Data-Driven Adaptive Needle Insertion Assist for Transperineal Prostate Interventions</h1>
+        <div class="content"><p>A data-driven appraoch to improving the precision of needle placement.</p>
+
+<p>In this project, we investigated a data-driven model predictive control (MPC) for robot-assisted precision needle placement.</p>
+
+<p>Clinical outcomes of percutaneous prostate interventions, such as biopsy, thermal ablations, and brachytherapy, depend on accurate needle placement. However, placing a long needle (typically 150-200 mm in length) is challenging due to needle deviation induced by needle-tissue interaction. While robotic assistance can potentially address this challenge by compensating for needle deviation based on model-based prediction and/or real-time feedback, several technical hurdles exist, including 1) difficulty in modeling individual patients with accurate geometry and material properties and 2)  complexity of hardware (e.g., a steerable needle, a high-dexterity robot) to achieve accurate needle steering in the soft tissue.</p>
+
+<p>To overcome those hurdles, we investigated a robot-assisted collaborative needle insertion method that only requires a minimum of 2 degree-of-freedom (2 DOF) passive needle guide and a conventional needle. The method is designed to assist a physician in inserting a needle manually through a needle guide. If the needle deviates from the intended path, actuators shift the needle radially to steer the needle trajectory and compensate for needle deviation adaptively.</p>
+
+<p><img src="/images/projects/radial-needle-shift-1.png" alt="Radial needle shift - overview" />
+<img src="/images/projects/radial-needle-shift-2.png" alt="Radial needle shift - algorithm" /></p>
+
+<p>The key technical challenge here is determining the amount of needle-guide shift required to induce needle steering to compensate for the deviation without modeling the patient. We developed a new data-driven MPC algorithm that figured out the needed shift adaptively based on feedback from the previous insertion steps. The method, therefore, does not require a priori information about the needle or tissue properties.</p>
+
+<p>The method was evaluated in experiments with both in vitro and ex vivo phantoms. The experiments in ex vivo tissue reported a mean final placement error of 0.36 mm with a reduction of 96.25% of placement error when compared to insertions without compensation. The results presented show that the proposed data-driven MPC can be successfully used to correct needle deflection during collaborative manual insertion, and it has the potential to be easily translated into clinical application.</p>
+
+<h3 id="references">References</h3>
+
+<ol class="bibliography"><li><span id="Bernardes2023-lo">Bernardes MC, Moreira P, Mareschal L, Tempany C, Tuncali K, Hata N, Tokuda J. Data-driven adaptive needle insertion assist for transperineal
+               prostate interventions. <i>Phys Med Biol</i>. 2023;68(10). doi:10.1088/1361-6560/accefa</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1088/1361-6560/accefa" rel="noreferrer">10.1088/1361-6560/accefa</a>
+
+-->
+
+
+PMID: 37080237.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC10249778/" rel="noreferrer">PMC10249778</a>.
+
+</li>
+<li><span id="Moreira2021-ey">Moreira P, Grimble J, Iftimia N, Bay CP, Tuncali K, Park J, Tokuda J. In vivo evaluation of angulated needle-guide template for
+               MRI-guided transperineal prostate biopsy. <i>Med Phys</i>. 2021;48(5):2553–2565. doi:10.1002/mp.14816</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1002/mp.14816" rel="noreferrer">10.1002/mp.14816</a>
+
+-->
+
+
+PMID: 33651407.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8141017/" rel="noreferrer">PMC8141017</a>.
+
+</li></ol>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+
+<p>The study was funded in part by the National Institutes of Health (R01CA235134, R01EB020667, and P41EB028741). The content of the material is solely the responsibility of the authors and does not necessarily represent the official views of these agencies.</p>
+
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <img height="39" width="285" alt="BWH Logo" src="/images/logo/bwh.png" title="" />
+          <img height="40" width="201" alt="HMS Logo" src="/images/logo/hms.png" title="" />
+          <ul>
+            
+            
+            <li class="">
+              <a href="/">Home</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            <div class="social">
+  
+    <a href="https://github.com/openigtlink" target="blank"><img src="/images/social/github.svg" title="Github" alt="Github" /></a>
+  
+</div>
+
+          
+          
+          <div class="copyright">Copyright (C) Tokuda Lab.</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', '');
+    </script>
+    
+
+</body>
+</html>
