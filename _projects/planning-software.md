@@ -4,7 +4,7 @@ date: 2023-05-15T12:00:00+5:00
 weight: 4
 ---
 
-ML assistance for image-guided and robot-assisted prostate internvetions .
+Exploring the potential of machine learning to empower image-guided and robot-assisted interventions.
 
 Our group has been working closely with clinical experts in prostate MRI and MRI-guided interventions (e.g., biopsy, ablation, surgery). We investigated ML-based approaches to improve planning and navigation of those procedures. 
 
@@ -24,7 +24,7 @@ The specific challenge in this effort was that the label data for those structur
 
 Results on a different task and data demonstrate our method's generic application capabilities. Our method has the advantage that it does not require any further data from the source domain, unlike the majority of recent domain adaptation strategies. This makes our method suitable for clinical applications where the sharing of patient data is restricted.
 
-### Related Papers
+### References
 
 {% bibliography --file tokuda_ref --query @*[pmid=34075061] %}
 
@@ -35,9 +35,21 @@ The study was funded in part by the U.S. National Institutes of Health (R01EB020
 
 ## Data-driven adaptive needle insertion assist for transperineal prostate interventions
 
+Exploring the potential of machine learning to empower image-guided and robot-assisted interventions.
+
 In this project, we investigated a data-driven model predictive control (MPC) for robot-assisted precision needle placement. 
 
-Clinical outcomes of percutaneous prostate interventions, such as biopsy, thermal ablations, and brachytherapy, depend on accurate needle placement. However, placing a long needle, typically 150-200 mm in length, is challenging due to needle deviation induced by needle-tissue interaction. While several approaches for needle trajectory correction have been studied, many of them do not translate well to practical applications due to the use of specialized needles not yet approved for clinical use, or to relying on needle-tissue models that need to be tailored to individual patients.Approach.In this paper, we present a robot-assisted collaborative needle insertion method that only requires an actuated passive needle guide and a conventional needle. The method is designed to assist a physician inserting a needle manually through a needle guide. If the needle is deviated from the intended path, actuators shifts the needle radially in order to steer the needle trajectory and compensate for needle deviation adaptively. The needle guide is controlled by a new data-driven algorithm which does not requirea prioriinformation about needle or tissue properties. The method was evaluated in experiments with bothin vitroandex vivophantoms.Main results.The experiments inex vivotissue reported a mean final placement error of 0.36 mm with a reduction of 96.25% of placement error when compared to insertions without the use of assistive correction.Significance.Presented results show that the proposed closed-loop formulation can be successfully used to correct needle deflection during collaborative manual insertion with potential to be easily translated into clinical application.
+Clinical outcomes of percutaneous prostate interventions, such as biopsy, thermal ablations, and brachytherapy, depend on accurate needle placement. However, placing a long needle (typically 150-200 mm in length) is challenging due to needle deviation induced by needle-tissue interaction. While robotic assistance can potentially address this challenge by compensating for needle deviation based on model-based prediction and/or real-time feedback, several technical hurdles exist, including 1) difficulty in modeling individual patients with accurate geometry and material properties and 2)  complexity of hardware (e.g., a steerable needle, a high-dexterity robot) to achieve accurate needle steering in the soft tissue. 
+
+To overcome those hurdles, we investigated a robot-assisted collaborative needle insertion method that only requires a minimum of 2 degree-of-freedom (2 DOF) passive needle guide and a conventional needle. The method is designed to assist a physician in inserting a needle manually through a needle guide. If the needle deviates from the intended path, actuators shift the needle radially to steer the needle trajectory and compensate for needle deviation adaptively. 
+
+The key technical challenge here is determining the amount of needle-guide shift required to induce needle steering to compensate for the deviation without modeling the patient. We developed a new data-driven MPC algorithm that figured out the needed shift adaptively based on feedback from the previous insertion steps. The method, therefore, does not require a priori information about the needle or tissue properties. 
+
+The method was evaluated in experiments with both in vitro and ex vivo phantoms. The experiments in ex vivo tissue reported a mean final placement error of 0.36 mm with a reduction of 96.25% of placement error when compared to insertions without compensation. The results presented show that the proposed data-driven MPC can be successfully used to correct needle deflection during collaborative manual insertion, and it has the potential to be easily translated into clinical application.
+
+### References
+
+{% bibliography --file tokuda_ref --query @*[pmid=34075061] %}
 
 
 ## AI-Based Isotherm Prediction for Focal Cryoablation of Prostate Cancer
