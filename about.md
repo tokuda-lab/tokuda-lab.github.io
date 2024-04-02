@@ -11,12 +11,11 @@ bodyClass: page-about
 <p>{% include call.html show_button=false %}</p>
 
 
-# About the Lab
 Our laboratory is located on the main campus of Brigham and Women’s Hospital having access to a wide variety of state-of-the-art clinical facilities, including the Advanced Multimodality Image Guided Operation (AMIGO) suite, a 5,700-square-foot operating room equipped with 3-Tesla MRI and PET/CT scanners. The proximity to those facilities allows us to work closely with clinical staff in the clinical environment to test new software and devices and obtain feedback frequently. 
 
 # Getting Involved
 
-There are several ways to get involved in [the research activities](/projects/). If you are seeking a paid position, please check out [the News page](/news/) for the latest job postings.
+There are several ways to get involved in [our research activities](/projects/). If you are seeking a paid position, please check out our [News](/news/) for latest job postings.
 
 ## Collaborations
 
