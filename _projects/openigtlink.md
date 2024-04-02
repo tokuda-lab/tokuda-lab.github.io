@@ -1,11 +1,11 @@
 ---
 title: "OpenIGTLink"
 date: 2023-05-15T12:00:00+5:00
-weight: 4
+weight: 3
 ---
 
 
-The OpenIGTLink protocol is a standardized communication protocol designed for real-time data exchange in the field of image-guided therapy (IGT). 
+A standardized communication protocol designed for real-time data exchange in image-guided therapy (IGT). 
 
 It provides a framework for transmitting and synchronizing data between different devices and software components involved in surgical and interventional procedures. OpenIGTLink was developed by the National Center for Image-Guided Therapy (NCIGT) and is an open-source protocol that promotes interoperability among various IGT systems. It is widely used and supported by many software applications, medical devices, and research institutions.
 

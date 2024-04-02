@@ -13,7 +13,7 @@ logo:
   desktop_height: "40px"
 
 home: 
-  limit_projects: 6
+  limit_projects: 3
 
 collections:
   projects:
