@@ -20,11 +20,11 @@ The key technical challenge here is determining the amount of needle-guide shift
 
 The method was evaluated in experiments with both in vitro and ex vivo phantoms. The experiments in ex vivo tissue reported a mean final placement error of 0.36 mm with a reduction of 96.25% of placement error when compared to insertions without compensation. The results presented show that the proposed data-driven MPC can be successfully used to correct needle deflection during collaborative manual insertion, and it has the potential to be easily translated into clinical application.
 
-### References
+## References
 
 {% bibliography --file tokuda_ref --query @*[pmid=37080237||pmid=33651407] %}
 
-### Acknowledgements
+## Acknowledgements
 
 The study was funded in part by the National Institutes of Health (R01CA235134, R01EB020667, and P41EB028741). The content of the material is solely the responsibility of the authors and does not necessarily represent the official views of these agencies.
 

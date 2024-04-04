@@ -4,10 +4,9 @@ date: 2023-05-15T12:00:00+5:00
 weight: 3
 ---
 
-
 A standardized communication protocol designed for real-time data exchange in image-guided therapy (IGT). 
 
-It provides a framework for transmitting and synchronizing data between different devices and software components involved in surgical and interventional procedures. OpenIGTLink was developed by the National Center for Image-Guided Therapy (NCIGT) and is an open-source protocol that promotes interoperability among various IGT systems. It is widely used and supported by many software applications, medical devices, and research institutions.
+OpenIGTLink provides a framework for transmitting and synchronizing data between different devices and software components involved in surgical and interventional procedures. OpenIGTLink was developed by the National Center for Image-Guided Therapy (NCIGT) and is an open-source protocol that promotes interoperability among various IGT systems. It is widely used and supported by many software applications, medical devices, and research institutions.
 
 Key features and characteristics of the OpenIGTLink protocol include:
 
@@ -25,7 +24,7 @@ OpenIGTLink has been widely adopted in the research and clinical communities and
 - Robot-assisted interventions using robotic devices and surgical planning software
 
 
-# Reference 
+## Reference 
 
 - [OpenIGTLink Official Webpage](http://openigtlink.org/)
 - [OpenIGTLink GitHub Repository](https://github.com/openigtlink/OpenIGTLink)
@@ -34,3 +33,12 @@ Blevins J, Arata J, Golby AJ, Kapur T, Pieper S, Burdette EC, Fichtinger G,
 Tempany CM, Hata N. OpenIGTLink: an open network protocol for image-guided
 therapy environment. [Int J Med Robot. 2009 Dec;5(4):423-34. doi:
 10.1002/rcs.274. PMID: 19621334; PMCID: PMC2811069.](https://pubmed.ncbi.nlm.nih.gov/19621334/)
+
+
+## Acknowledgements
+
+The development of OpenIGTLink has been primarily supported by the National Institutes of Health (R01EB020667, P41EB028741). Since this has been developed using the open-source model, many contributions came from external groups. See ["Acknowledgements" and "Contributors"](http://openigtlink.org/about) on the OpenIGTLink official website.
+
+
+
+

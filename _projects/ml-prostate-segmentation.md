@@ -28,5 +28,3 @@ The study was funded in part by the U.S. National Institutes of Health (R01EB020
 
 
 
-## AI-Based Isotherm Prediction for Focal Cryoablation of Prostate Cancer
-
