@@ -12,6 +12,6 @@ show_call_box: False
 
 <strong>Improving clinical outcomes through the integration of image guidance and robotic assistance.</strong>
 
-A member of National Center for Image-Guided Therapy (NCIGT),
+A member of The National Center for Advanced Technologies for Image Guided Therapy (AT-NCIGT),
 Department of Radiology, Brigham and Women's Hospital and Harvard Medical School.
 
