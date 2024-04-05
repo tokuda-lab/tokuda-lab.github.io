@@ -10,7 +10,7 @@ doi: <a target="_blank" href="http://dx.doi.org/{{ entry.doi }}" rel="noreferrer
 -->
 
 {% if entry.pmid %}
-PMID: {{ entry.pmid }}.
+PMID: <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/{{ entry.pmid }}/" rel="noreferrer">{{ entry.pmid }}</a>.
 {% endif %}
 
 {% if entry.pmc %}

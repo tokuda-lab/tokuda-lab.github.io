@@ -16,6 +16,9 @@ main:
     weight: 5
 
 footer:
+  - name: "MGB Privacy Policy"
+    url: "https://www.massgeneralbrigham.org/notices/web-privacy-policy"
+    weight: 1
   - name: "Home"
     url: "/"
-    weight: 1
+    weight: 2
