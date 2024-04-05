@@ -2,14 +2,18 @@
   <div class="container">
     <div class="logo">
       <a href="{{ site.baseurl }}/"><img width="{{ site.logo.desktop_width }}" height="{{ site.logo.desktop_height }}" alt="{{ site.title }}" src="{{ site.logo.desktop | relative_url }}" /></a>
-      <div class="labname">
-        {{ site.labname }}, {{ site.deptname }}
-      </div>
     </div>
     <div class="logo-mobile">
-      <a href="{{ site.baseurl }}/"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title }}" src="{{ site.logo.mobile | relative_url }}" /></a>
+      <a href="{{ site.baseurl }}/"><img width="{{ site.logo.mobile_width }}" height="{{ site.logo.mobile_height }}" alt="{{ site.title   }}" src="{{ site.logo.mobile | relative_url }}" /></a>
     </div>
+  </div>
+</div>
 
+<div class='subheader'>
+  <div class="container">
+    <div class="labname">
+      <a href="{{ site.baseurl }}/">{{ site.labname }}, {{ site.deptname }}</a>
+    </div>
     {% include main-menu.html %}
     {% include hamburger.html %}
   </div>

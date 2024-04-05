@@ -8,9 +8,9 @@ logo:
   mobile: "images/logo/logo-mobile.png"
   mobile_height: "32px"
   mobile_width: "32px"
-  desktop: "images/logo/logo.png"
-  desktop_width: "240px"
-  desktop_height: "40px"
+  desktop: "images/logo/bwh-logo.svg"
+  desktop_width: "270px"
+  desktop_height: "30px"
 
 home: 
   limit_projects: 3

@@ -1,11 +1,10 @@
 .header {
   color: $primary;
-  background-color: #ffffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
-  border-bottom: 1px solid $white-offset;
+  // border-bottom: 1px solid $white-offset;
   padding: 10px 0px;
   .container {
     display: flex;
@@ -18,8 +17,47 @@
     width: 100%;
   }
 }
+
+.subheader {
+  color: $primary;
+  background-color: $footer-background-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // box-shadow: 0 1px 15px rgba(50, 50, 93, 0.2);
+  // border-bottom: 1px solid $white-offset;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .labname {
+      font-size: 1.0rem;
+      font-weight: 300;
+      color: #ffffff;
+      padding: 0;
+      text-decoration: none;
+      text-indent: 0px;
+      a {
+        color: #ffffff;
+        text-decoration: none;
+      }
+    }
+  }
+
+  &.header-absolute {
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+  }
+}
+
 .lock-scroll {
   .header {
+    &.header-absolute {
+      position: static;
+    }
+  }
+  .subheader {
     &.header-absolute {
       position: static;
     }
