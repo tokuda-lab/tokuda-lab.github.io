@@ -8,17 +8,17 @@ main:
   - name: "Publications"
     url: "/publications/"
     weight: 4
+  - name: "News"
+    url: "/news/"
+    weight: 4
   - name: "About"
     url: "/about/"
-    weight: 4
-  - name: "Events"
-    url: "/events/"
-    weight: 4
-  - name: "Contact"
-    url: "/contact/"
     weight: 5
 
 footer:
+  - name: "MGB Privacy Policy"
+    url: "https://www.massgeneralbrigham.org/notices/web-privacy-policy"
+    weight: 1
   - name: "Home"
     url: "/"
-    weight: 1
+    weight: 2

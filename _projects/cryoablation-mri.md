@@ -1,7 +1,7 @@
 ---
 title: "MRI-Based Cryoablation Monitoring"
 date: 2023-05-15T12:00:00+5:00
-weight: 4
+weight: 5
 ---
 
 A novel MRI-based method to monitor the lethal ablation volume during MR-guided cryoablation. 
@@ -19,6 +19,10 @@ The ex vivo experiment using a bovine muscle demonstrated that STIR-UTE images s
 Short tau inversion-recovery ultrashort echo-time MR imaging successfully delineated the area approximately between -40°C and -8°C isotherms in the frozen tissue, demonstrating its potential to monitor the lethal ablation volume during MR-guided cryoablation.
 
 
-# References
+## Collaborators
+- Kemal Tuncali, M.D. (Brigham and Women's Hospital)
+- Ehud Schmidt, Ph.D. (Johns Hopkins University) 
+
+## References
 
 - Tokuda J, Wang Q, Tuncali K, Seethamraju RT, Tempany CM, Schmidt EJ. Temperature-Sensitive Frozen-Tissue Imaging for Cryoablation Monitoring Using STIR-UTE MRI. Invest Radiol. 2020 May;55(5):310-317. doi: 10.1097/RLI.0000000000000642. PMID: 31977600; PMCID: PMC7145748. [PubMed](https://pubmed.ncbi.nlm.nih.gov/31977600/) / [PubMed Central](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7145748/)

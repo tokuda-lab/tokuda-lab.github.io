@@ -1,0 +1,46 @@
+---
+layout: default
+bodyClass: "page-news"
+---
+
+<!--
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="project project-single">
+                <h2 class="title">{{page.title}}</h2>
+                <div class="content">{{content}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+-->
+
+<div class="container pb-6 pt-6 pt-md-6 pb-md-0">
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            <div class="project project-single">
+                <h2 class="title">{{page.title}}</h2>
+                <div class="content">{{content}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-6 pb-6 pt-md-2 pb-md-0">
+  <div class="row">
+    {% assign sorted_newspost = site.news | sort: "date" | reverse %}
+    {% for newspost in sorted_newspost %}
+    <div class="col-12 col-md-8">
+      <div class="newspost newspost-summary">
+        <div class="newspost-content">
+          <h2 class="newspost-title">
+            <a href="{{ newspost.url | relative_url }}">{{ newspost.title }}</a>
+          </h2>
+          <p>{{ newspost.content | markdownify | strip_html | truncate: 200 }} <strong>(Posted on {{ newspost.date| date: "%m/%d/%Y" }}) </strong></p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

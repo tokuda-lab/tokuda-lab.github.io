@@ -1,4 +1,5 @@
 .logo {
+  margin-top: 5px;
   display: none;
   @include media-breakpoint-up(sm) {
     display: block;
@@ -10,15 +11,6 @@
     display: block;
     width: 100%;
     height: 100%;
-  }
-  .labname {
-    font-size: 0.8rem;
-    font-weight: 300;
-    color: $primary;
-    margin: -1px;
-    padding: 0;
-    text-decoration: none;
-    text-indent: 35px;
   }
 }
 .logo-mobile {

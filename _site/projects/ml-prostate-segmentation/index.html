@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>ML-Based Automatic segmentation of prostate and neurovascular bundles on MRI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" type="image/png" href="/images/favicon.png">
+  <!-- Google Fonts CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Self host font -->
+  <!-- <link rel="preload" href="/assets/fonts/playfair-display.woff2" as="font" type="font/woff2" crossorigin> -->
+  <link href="/assets/css/style.css" rel="stylesheet">
+  
+  
+  <meta property="og:title" content="ML-Based Automatic segmentation of prostate and neurovascular bundles on MRI"/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content=""/>
+  
+  
+  <meta name="twitter:card" content="summary"/>
+  
+  
+
+</head>
+
+<body class='page page-project'>
+  <div id="main-menu-mobile" class="main-menu-mobile">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/projects/">Projects</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/publications/">Publications</a>
+    </li>
+    
+    <li class="">
+      <a href="/news/">News</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <div class="container">
+    <div class="logo">
+      <a href="/"><img width="270px" height="30px" alt="Tokuda Laboratory" src="/images/logo/bwh-logo.svg" /></a>
+    </div>
+    <div class="logo-mobile">
+      <a href="/"><img width="32px" height="32px" alt="Tokuda Laboratory" src="/images/logo/logo-mobile.png" /></a>
+    </div>
+  </div>
+</div>
+
+<div class='subheader'>
+  <div class="container">
+    <div class="labname">
+      <a href="/">Tokuda Laboratory, Department of Radiology</a>
+    </div>
+    <div id="main-menu" class="main-menu">
+  
+  <ul>
+    
+    <li class="">
+      <a href="/projects/">Projects</a>
+    </li>
+    
+    <li class="">
+      <a href="/team/">Team</a>
+    </li>
+    
+    <li class="">
+      <a href="/publications/">Publications</a>
+    </li>
+    
+    <li class="">
+      <a href="/news/">News</a>
+    </li>
+    
+    <li class="">
+      <a href="/about/">About</a>
+    </li>
+    
+  </ul>
+</div>
+
+    <button id="toggle-main-menu-mobile" class="hamburger hamburger--slider" type="button" aria-label="Mobile Menu">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+  </div>
+</div>
+
+    <div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="project project-single">
+        <h1 class="title">ML-Based Automatic segmentation of prostate and neurovascular bundles on MRI</h1>
+        <div class="content"><p>Exploring the potential of machine learning to empower image-guided and robot-assisted interventions.</p>
+
+<p>MRI became a crucial diagnostic tool for prostate cancer care. Recent progress in multiparametric MRI (mpMRI) and the PI-RADS reporting system greatly improved radiologists’s ability to detect, evaluate, and report potential diseases. However, raw MRI data, along with a conventional free-text report, do not fully convey the radiologists’ findings, such as the tumor location and its proximity to critical structures, and thus are not a suitable format for the planning and navigation of surgical interventions (e.g., biopsy, ablations, radiation, and surgery), especially when those tasks are computerized. They must be segmented and labeled to create a patient-specific geometric model.</p>
+
+<p><img src="/images/projects/prostate-segmentation-example.jpg" alt="Example applications" /></p>
+
+<p>To streamline the process of creating a patient-specific geometric model from prostate MRI data, we investigated a new machine-learning algorithm to automatically segment the prostate and surrounding critical structures, including the neurovascular bundles (NVBs) and the external urethral sphincter (EUS), on the images. We used labeled MRI data from our previous clinical study to train a convolutional neural network (CNN) model based on 3D U-Net.</p>
+
+<p>The specific challenge in this effort was that the label data for those structures were not widely available and were created only from MRI data obtained with a single imaging protocol at a single site. As network models trained on data from a single source suffer from quality loss due to the domain shift, we propose a semi-supervised domain adaptation (DA) method to refine the model’s performance in the target domain. Our DA method combines transfer learning and uncertainty-guided self-learning based on deep ensembles. Experiments on the segmentation of the prostate, NVB, and EUS, show significant performance gains with the combination of those techniques compared to pure TL and the combination of TL with simple self-learning.</p>
+
+<p><img src="/images/projects/prostate-segmentation-workflow.jpg" alt="Segmentation workflow" /></p>
+
+<p>Results on a different task and data demonstrate our method’s generic application capabilities. Our method has the advantage that it does not require any further data from the source domain, unlike the majority of recent domain adaptation strategies. This makes our method suitable for clinical applications where the sharing of patient data is restricted.</p>
+
+<h3 id="references">References</h3>
+
+<ol class="bibliography"><li><span id="Meyer2021-dl">Meyer A, Mehrtash A, Rak M, Bashkanov O, Langbein B, Ziaei A, Kibel AS, Tempany CM, Hansen C, Tokuda J. Domain adaptation for segmentation of critical structures for
+               prostate cancer therapy. <i>Sci Rep</i>. 2021;11(1):11480. doi:10.1038/s41598-021-90294-4</span>
+
+<!--
+
+doi: <a target="_blank" href="http://dx.doi.org/10.1038/s41598-021-90294-4" rel="noreferrer">10.1038/s41598-021-90294-4</a>
+
+-->
+
+
+PMID: <a target="_blank" href="https://pubmed.ncbi.nlm.nih.gov/34075061/" rel="noreferrer">34075061</a>.
+
+
+
+PMCID: <a target="_blank" href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC8169882/" rel="noreferrer">PMC8169882</a>.
+
+</li></ol>
+
+<h3 id="acknowledgements">Acknowledgements</h3>
+
+<p>The study was funded in part by the U.S. National Institutes of Health (R01EB020667, R01CA235134, P41EB015898, P41EB028741), and the EU and the federal state of Saxony-Anhalt, Germany (ZS/2016/08/80388).</p>
+
+</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  <div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="footer-inner">
+          <img height="40" width="201" alt="HMS Logo" src="/images/logo/hms.png" title="" />
+          <ul>
+            
+            
+            <li class="">
+              <a href="https://www.massgeneralbrigham.org/notices/web-privacy-policy">MGB Privacy Policy</a>
+            </li>
+            
+            <li class="">
+              <a href="/">Home</a>
+            </li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <div class="sub-footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <div class="sub-footer-inner">
+          
+            <div class="social">
+  
+    <a href="https://github.com/openigtlink" target="blank"><img src="/images/social/github.svg" title="Github" alt="Github" /></a>
+  
+</div>
+
+          
+          
+          <div class="copyright">Copyright (C) Tokuda Lab.</div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script type="text/javascript" src="/assets/js/scripts.js"></script>
+  
+    
+    
+    <script async src="https://www.googletagmanager.com/gtag/js?id="></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag('js', new Date());
+      gtag('config', '');
+    </script>
+    
+
+</body>
+</html>
