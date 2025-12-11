@@ -2,7 +2,6 @@
 title: "Rajdeep Banerjee, MEng"
 jobtitle: Visiting Student
 institution: "Cornell University"
-linkedinurl: "https://www.linkedin.com/in/yuqing-fan-b3a180329/"
 promoted: true
 years: 2025
 weight: 102025
