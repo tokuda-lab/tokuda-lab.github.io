@@ -1,3 +1,77 @@
+@ARTICLE{Hoffman2026-fr,
+  title     = "Machine learning model for fast prediction and uncertainty
+               quantification of needle deflection during prostate biopsy",
+  author    = "Hoffman, Nathan and Al-Zogbi, Lidia and Krieger, Axel and Tokuda,
+               Junichi and Moreira, Pedro and Fuge, Mark",
+  journal   = "Med. Phys.",
+  publisher = "Med Phys",
+  volume    =  53,
+  number    =  2,
+  pages     = "e70314",
+  abstract  = "BACKGROUND: Accurate needle placement is essential for prostate
+               biopsy. Recently, transperineal prostate biopsies are receiving
+               renewed interest due to concern over infection from conventional
+               transrectal biopsies. However, accurate needle placement is more
+               challenging in the transperineal approach than in the transrectal
+               approach due to the long insertion distance leading to a large
+               targeting error and repeated insertion attempts. Improved
+               procedure planning tools that can predict the deviation of the
+               needle can potentially reduce the targeting error and number of
+               insertion attempts. Prediction of deflection magnitude requires a
+               model of biopsy needle deflection, which in turn requires
+               information about tissue material properties. However, material
+               properties of tissue in patients cannot be easily obtained.
+               Accounting for this uncertainty in patient tissue properties
+               requires a model capable of quantifying uncertainty in needle
+               deflection as a function of a distribution of tissue properties.
+               A Monte Carlo uncertainty quantification requires 1000s of
+               samples, but it is not possible to obtain this many samples in a
+               short enough time for intraoperative procedure planning using
+               published needle deflection prediction models. PURPOSE: This work
+               seeks to develop a model of needle deflection fast enough for use
+               in intraoperative procedure planning, validate this model against
+               experimental results, and integrate it into a Monte Carlo
+               uncertainty quantification model. METHODS: This work used a
+               mechanics-based model of biopsy needle deflection to train a
+               Fourier feature neural network (FFNN) model in order to make
+               predictions with a low computational cost. Both models were
+               validated against experimental data. The neural network model was
+               used in a Monte Carlo uncertainty quantification model to
+               quantify uncertainty in needle deflection arising from uncertain
+               tissue mechanical properties. RESULTS: This work (1) implemented
+               a mechanics-based model and a FFNN model. Both models were
+               validated against previously published experiments carried out
+               with tissue phantoms. Both models showed close agreement with the
+               experimental data. (2) We showed that our FFNN model was more
+               accurate than a baseline ordinary least squares model,
+               introducing only about 0.3-mm tip deflection error compared to
+               the mechanics-based model. We also showed that our FFNN model
+               makes unbiased predictions with respect to the amount of
+               deflection. (3) We demonstrated a Monte Carlo uncertainty
+               quantification model of needle deflection with a low
+               computational cost of about 20 CPU s. We used our uncertainty
+               quantification model to show how the depth, stiffness, and
+               magnitude of uncertainty in a layer of tissue affect needle
+               deflection. In addition, we showed a simple clinical example of
+               the use of our model. CONCLUSIONS: This work demonstrates a Monte
+               Carlo uncertainty quantification model of needle deflection with
+               a low computational cost. This method shows promise for future
+               applications in procedure planning for prostate biopsies as well
+               as other transperineal procedures conducted with flexible needles
+               such as cryoablation and brachytherapy.",
+  month     =  feb,
+  year      =  2026,
+  url       = "http://dx.doi.org/10.1002/mp.70314",
+  keywords  = "Machine Learning; Mechanics Based Model; Needle Deflection ;
+               Prostate Biopsy; Uncertainty Quantification",
+  doi       = "10.1002/mp.70314",
+  pmc       = "PMC12860539",
+  pmid      =  41619297,
+  issn      = "2473-4209,0094-2405",
+  language  = "en"
+}
+
+
 @ARTICLE{Wilcox2025-hq,
   title     = "Development of a low-profile, piezoelectric robot for {MR}-guided
                abdominal needle interventions",
@@ -48,6 +122,7 @@
   issn      = "0090-6964,1573-9686",
   language  = "en"
 }
+
 
 @ARTICLE{Ha2024-ei,
   title     = "Target-specified reference-based deep learning network for joint
@@ -109,21 +184,42 @@
 
 
 
-@ARTICLE{Connolly2024-tmrb,
-  author={Connolly, Laura and Kumar, Aravind S. and Mehta, Kapi Ketan and Al-Zogbi, Lidia and
-         Kazanzides, Peter and Mousavi, Parvin and Fichtinger, Gabor and Krieger, Axel and
-         Tokuda, Junichi and Taylor, Russell H. and Leonard, Simon and Deguet, Anton},
-  journal={IEEE Transactions on Medical Robotics and Bionics},
-  title={{SlicerROS2}: A Research and Development Module for Image-Guided Robotic Interventions},
-  year={2024},
-  volume={},
-  number={},
-  pages={1-1},
-  keywords={Robots;Three-dimensional displays;Robot kinematics;Medical robotics;Biomedical imaging;Robot sensing systems;Standards;Image-guidance;robotics;3D Slicer;ROS2;research prototyping;virtual fixtures;motion planning},
-  abstract={Image-guided robotic interventions involve the use of medical imaging in tandem with robotics. SlicerROS2 is a software module that combines 3D Slicer and robot operating system (ROS) in pursuit of a standard integration approach for medical robotics research. The first release of SlicerROS2 demonstrated the feasibility of using the C++ API from 3D Slicer and ROS to load and visualize robots in real time. Since this initial release, we’ve rewritten and redesigned the module to offer greater modularity, access to low-level features, access to 3D Slicer’s Python API, and better data transfer protocols. In this paper, we introduce this new design as well as four applications that leverage the core functionalities of SlicerROS2 in realistic image-guided robotics scenarios.},
-  doi={10.1109/TMRB.2024.3464683}
-  }
-
+@ARTICLE{Connolly2024-qa,
+  title     = "{SlicerROS2}: A research and development module for image-guided
+               robotic interventions",
+  author    = "Connolly, Laura and Kumar, Aravind S and Mehta, Kapi Ketan and
+               Al-Zogbi, Lidia and Kazanzides, Peter and Mousavi, Parvin and
+               Fichtinger, Gabor and Krieger, Axel and Tokuda, Junichi and
+               Taylor, Russell H and Leonard, Simon and Deguet, Anton",
+  journal   = "IEEE Trans. Med. Robot. Bionics",
+  publisher = "Institute of Electrical and Electronics Engineers (IEEE)",
+  volume    =  6,
+  number    =  4,
+  pages     = "1334--1344",
+  abstract  = "Image-guided robotic interventions involve the use of medical
+               imaging in tandem with robotics. SlicerROS2 is a software module
+               that combines 3D Slicer and robot operating system (ROS) in
+               pursuit of a standard integration approach for medical robotics
+               research. The first release of SlicerROS2 demonstrated the
+               feasibility of using the C++ API from 3D Slicer and ROS to load
+               and visualize robots in real time. Since this initial release,
+               we've rewritten and redesigned the module to offer greater
+               modularity, access to low-level features, access to 3D Slicer's
+               Python API, and better data transfer protocols. In this paper, we
+               introduce this new design as well as four applications that
+               leverage the core functionalities of SlicerROS2 in realistic
+               image-guided robotics scenarios.",
+  month     =  nov,
+  year      =  2024,
+  url       = "https://ieeexplore.ieee.org/document/10684721",
+  keywords  = "3D Slicer; Image-guidance; ROS2; motion planning; research
+               prototyping; robotics; virtual fixtures",
+  doi       = "10.1109/tmrb.2024.3464683",
+  pmc       = "PMC12327204",
+  pmid      =  40777983,
+  issn      = "2576-3202",
+  language  = "en"
+}
 
 @ARTICLE{Bernardes2024-ral,
   title     = {In Vivo Feasibility Study: Evaluating Autonomous Data-Driven Robotic Needle
