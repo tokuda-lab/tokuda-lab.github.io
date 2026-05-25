@@ -7,3 +7,4 @@ gem "jekyll-scholar"
 gem "jekyll-regex-replace"
 
 gem "eventmachine", github: "eventmachine/eventmachine"
+gem "sass-embedded", "~> 1.85"
