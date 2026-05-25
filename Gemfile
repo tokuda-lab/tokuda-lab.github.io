@@ -6,4 +6,4 @@ gem "jekyll-environment-variables"
 gem "jekyll-scholar"
 gem "jekyll-regex-replace"
 
-gem "eventmachine", "~> 1.2.7"
+gem "eventmachine", github: "eventmachine/eventmachine"
