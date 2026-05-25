@@ -21,7 +21,7 @@ Therefore, the goal of this project is to enable seamless integration of 3D Slic
 ## Collaborators
 - [Axel Krieger, Ph.D.](https://engineering.jhu.edu/faculty/axel-krieger/) (Johns Hopkins University)
 - [Simon Leonard, Ph.D.](https://www.cs.jhu.edu/~sleonard/) (Johns Hopkins University)
-- [Mark Fuge, Ph.D.](https://enme.umd.edu/clark/faculty/539/Mark-D-Fuge)_ (University of Marlyand)
+- [Mark Fuge, Ph.D.](https://enme.umd.edu/clark/faculty/539/Mark-D-Fuge) (University of Maryland)
 - [Anton Deguet](https://malonecenter.jhu.edu/people/anton-deguet/) (Johns Hopkins University)
 
 ## Related Page

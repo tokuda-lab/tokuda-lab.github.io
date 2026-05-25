@@ -4,11 +4,11 @@ layout: contact
 description: Contact
 ---
 
-If you are interested in collaborating with us or internship in our group, please feel free to contact us. There are several ways to get involved.
+If you are interested in collaborating with us or in an internship in our group, please feel free to contact us. There are several ways to get involved.
 
 ## Collaborations
 
-We welcome collaborations with academic and industrial partners. We have a long history of successful collaborations with academic and industrial partners in developing and clinically translating software and hardware for image-guided and robot-assisted interventions. Our laboratory is specialized in adapting new computational and robotic technologies to clinical applications, and testing in the clinical environment under an IRB-approved protocol. [The National Center for Image Guided Therapy](https://ncigt.org) offers a unique translational research environment for translational research. Examples of our collaborations include:
+We welcome collaborations with academic and industrial partners. We have a long history of successful collaborations with academic and industrial partners in developing and clinically translating software and hardware for image-guided and robot-assisted interventions. Our laboratory is specialized in adapting new computational and robotic technologies to clinical applications, and testing in the clinical environment under an IRB-approved protocol. [The National Center for Image Guided Therapy](https://ncigt.org) offers a unique translational research environment. Examples of our collaborations include:
 
 - Pre-clinical and clinical evaluation of a robotic system for MRI-guided breast biopsy.
 - Development of a robotic system for prostate interventions.

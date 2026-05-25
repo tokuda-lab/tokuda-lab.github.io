@@ -1,10 +1,10 @@
 ---
-title: "The 43st Project Week - June 23-27, 2025"
+title: "The 43rd Project Week - June 23-27, 2025"
 date: 2025-06-23 12:00:00+5:00
 weight: 4
 ---
 
-PI Tokuda participated in the 43th [Project Week](https://projectweek.na-mic.org/PW43_2025_Montreal/), which took place from June 23 to 27 at ETS, Montreal, Canada.
+PI Tokuda participated in the 43rd [Project Week](https://projectweek.na-mic.org/PW43_2025_Montreal/), which took place from June 23 to 27 at ETS, Montreal, Canada.
 
 ## Links:
 

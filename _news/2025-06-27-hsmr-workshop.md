@@ -4,7 +4,7 @@ date: 2025-03-07 12:00:00+5:00
 weight: 3
 ---
 
-A workshop entitled "Healing Through Collaboration: Open-Source Software in Surgical, Biomedical and AI Technologies" was heled successfuly at Hamlyn Symposium on Medical Robotics 2025 in London, UK, on June 27, 2025. Twenty guest speakers gave talks and panel discussions. From the Tokuda Lab., Junichi Tokuda and Mariana Bernardes joined Drs. Miguel Xochicale, Reza Haqshenas, Ruaridh Gollifer, and Saransh Chopra of University College London, and Dr. Laura Connollly of Queen’s University to organze the workshop. 
+A workshop entitled "Healing Through Collaboration: Open-Source Software in Surgical, Biomedical and AI Technologies" was held successfully at Hamlyn Symposium on Medical Robotics 2025 in London, UK, on June 27, 2025. Twenty guest speakers gave talks and panel discussions. From the Tokuda Lab., Junichi Tokuda and Mariana Bernardes joined Drs. Miguel Xochicale, Reza Haqshenas, Ruaridh Gollifer, and Saransh Chopra of University College London, and Dr. Laura Connolly of Queen’s University to organize the workshop. 
 
 Description
 ===========

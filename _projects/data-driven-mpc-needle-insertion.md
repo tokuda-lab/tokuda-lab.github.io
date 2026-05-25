@@ -4,7 +4,7 @@ date: 2024-04-02T12:00:00+5:00
 weight: 3
 ---
 
-A data-driven appraoch to improving the precision of needle placement.
+A data-driven approach to improving the precision of needle placement.
 
 In this project, we investigated a data-driven model predictive control (MPC) for robot-assisted precision needle placement. 
 
