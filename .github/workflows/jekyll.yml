@@ -41,12 +41,13 @@ jobs:
         uses: ruby/setup-ruby@v1  # Fix suggested on https://github.com/ruby/setup-ruby/issues/595
         with:
           ruby-version: '3.1' # Not needed with a .ruby-version file
-          bundler-cache: false # runs 'bundle install' and caches installed gems automatically
+          bundler-cache: true # runs 'bundle install' and caches installed gems automatically
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
       - name: Build with Jekyll
         # Outputs to the './_site' directory by default
+        run: bundle update
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
