@@ -5,7 +5,7 @@ image: "images/team/joonho-seo.jpg"
 jobtitle: "Visiting Scholar"
 linkedinurl: "https://www.linkedin.com/in/joonhoseo/"
 catalysturl: ""
-promoted: true
+promoted: alumni
 weight: 4
 ---
 
