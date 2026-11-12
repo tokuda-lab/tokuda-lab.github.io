@@ -1,7 +1,7 @@
 ---
 ---
 
-{{reference | regex_replace_once: '\A\s*(<div class="csl-left-margin">)?\s*\d+\.\s*(</div>)?', ''}}
+{{reference | regex_replace_once: '\A(<span[^>]*>)\s*(<div class="csl-left-margin">)?\s*\d+\.\s*(</div>)?', '\1'}}
 
 <!--
 {% if entry.doi %}
